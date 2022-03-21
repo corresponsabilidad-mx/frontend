@@ -14,3 +14,27 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.primary-color{
+  color: #753BBD;
+  background-color: #753BBD;
+}
+
+.secondary-color{
+  color: #00B388;
+  background-color: #00B388;
+}
+
+.a-navbar{
+  width: 120px;
+  border-radius: 25px;
+  padding: 10px;
+  display:flex;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 2px;
+}
+
+.a-navbar:hover {
+  background-color: #00B388;
+}
