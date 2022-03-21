@@ -1,69 +1,43 @@
-import { Carousel } from "react-bootstrap";
+import { Button, Carousel } from "react-bootstrap";
 import Image from "next/image";
+import Link from "next/link";
 
-export default function CarouselPhoto() {
+const PhotoCarousel = () => {
+  const images = [
+    "/images/carousel/carousel6 Photo by Anelale Nájera on Unsplash.jpg",
+    "/images/carousel/carousel7 Photo by Aquiles Carattino on Unsplash.jpg",
+    "/images/carousel/carousel8 Photo by Charu Chaturvedi on Unsplash.jpg",
+    "/images/carousel/carousel5.jpg",
+    "/images/carousel/carousel11 Photo by Womanizer Toys on Unsplash.jpg",
+    "/images/carousel/carousel3.jpg",
+  ];
+
   return (
-    <>
-      <Carousel variant="dark">
-        <Carousel.Item>
+    <Carousel variant="light">
+      {images.map((image, index) => (
+        <Carousel.Item key={index}>
           <Image
             className="d-block w-100"
-            src="/images/carousel/violencia1.jpg"
+            src={image}
             alt="First slide"
             width={1000}
-            height={300}
+            height={350}
             objectFit="cover"
             layout="responsive"
           />
           <Carousel.Caption>
-            <h3>Quiénes somos</h3>
-            <p>Trabajamos por la prevención e igualdad de derechos</p>
-            <button>CONÓCENOS</button>
+            <h2>Quiénes somos</h2>
+            <h5>Trabajamos por la prevención e igualdad de derechos</h5>
+            <Button className="mt-3 mb-3 fs-6 btn-light btn-lg">
+              <Link href="#">
+                <a className="text-decoration-none text-dark">CONOCENOS</a>
+              </Link>
+            </Button>
           </Carousel.Caption>
         </Carousel.Item>
-        <Carousel.Item>
-          <Image
-            className="d-block w-100"
-            src="/images/carousel/violencia3.jpg"
-            alt="Second slide"
-            width={1000}
-            height={300}
-            objectFit="cover"
-            layout="responsive"
-          />
-          <Carousel.Caption>
-            <h3>Quiénes somos</h3>
-            <p>Trabajamos por la prevención e igualdad de derechos</p>
-            <button>CONÓCENOS</button>
-          </Carousel.Caption>
-        </Carousel.Item>
-        <Carousel.Item>
-          <Image
-            className="d-block w-100"
-            src="/images/carousel/violencia2.jpg"
-            alt="Third slide"
-            width={1000}
-            height={300}
-            objectFit="cover"
-            layout="responsive"
-          />
-          <Carousel.Caption>
-            <h3>Quiénes somos</h3>
-            <p>Trabajamos por la prevención e igualdad de derechos</p>
-            <button>CONÓCENOS</button>
-          </Carousel.Caption>
-        </Carousel.Item>
-      </Carousel>
-      <style jsx>{`
-        button {
-          font-size: 12px;
-          background-color: transparent;
-          border-radius: 5px;
-          padding: 5px;
-          width: 120px;
-          heigth: 50px;
-        }
-      `}</style>
-    </>
+      ))}
+    </Carousel>
   );
-}
+};
+
+export default PhotoCarousel;
