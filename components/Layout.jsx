@@ -3,7 +3,6 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import styles from "../styles/Home.module.css";
 import NavBar from "./NavBar";
 
-
 const Layout = ({ children }) => {
   return (
     <>

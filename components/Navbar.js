@@ -13,30 +13,32 @@ export default function NavBar() {
           <Nav className="mr-auto navbar-nav flex-fill justify-content-between align-items-center">
             <Nav.Item>
               <Link href="/">
-                <a className="nav-link active text-dark">Inicio</a>
+                <a className="nav-link active text-white primary-color a-navbar">INICIO</a>
               </Link>
             </Nav.Item> 
             <Nav.Item>
               <Link href="/quienes-somos">
-                <a className="nav-link text-success">¿Quiénes somos?</a>
+                <a className="nav-link text-white primary-color a-navbar">¿Quiénes somos?</a>
               </Link>
             </Nav.Item>   
             <Nav.Item>
               <Link href="/proyectos">
-                <a className="nav-link text-success">Proyectos</a>
+                <a className="nav-link text-white primary-color a-navbar">Proyectos</a>
               </Link>
             </Nav.Item>   
             <Nav.Item>
-              <Link href="/">
-                <a className="nav-link text-success">Galería</a>
+              <Link href="/galeria">
+                <a className="nav-link text-white primary-color a-navbar">Galería</a>
               </Link>
-            </Nav.Item>   <Nav.Item>
-              <Link href="/">
-                <a className="nav-link text-success">Blog</a>
+            </Nav.Item>   
+	    <Nav.Item>
+              <Link href="/blog">
+                <a className="nav-link text-white primary-color a-navbar">Blog</a>
               </Link>
-            </Nav.Item>   <Nav.Item>
-              <Link href="/">
-                <a className="nav-link text-success">Participá</a>
+            </Nav.Item>   
+	    <Nav.Item>
+              <Link href="/participa">
+                <a className="nav-link text-white primary-color a-navbar">Participá</a>
               </Link>
             </Nav.Item>                
           </Nav>
