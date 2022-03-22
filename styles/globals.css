@@ -58,3 +58,7 @@ a {
 .facebook-a{
   color: white !important;
 }
+
+.logo{
+  border-radius: 50%;
+}
