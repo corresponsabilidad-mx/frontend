@@ -18,27 +18,27 @@ export default function NavBar() {
             </Nav.Item> 
             <Nav.Item>
               <Link href="/conocenos">
-                <a className="nav-link text-white primary-color a-navbar">¿Quiénes somos?</a>
+                <a className="nav-link text-white primary-color a-navbar">CONOCENOS</a>
               </Link>
             </Nav.Item>   
             <Nav.Item>
               <Link href="/proyectos">
-                <a className="nav-link text-white primary-color a-navbar">Proyectos</a>
+                <a className="nav-link text-white primary-color a-navbar">PROYECTOS</a>
               </Link>
             </Nav.Item>   
             <Nav.Item>
               <Link href="/galeria">
-                <a className="nav-link text-white primary-color a-navbar">Galería</a>
+                <a className="nav-link text-white primary-color a-navbar">GALERIA</a>
               </Link>
             </Nav.Item>   
 	    <Nav.Item>
               <Link href="/blog">
-                <a className="nav-link text-white primary-color a-navbar">Blog</a>
+                <a className="nav-link text-white primary-color a-navbar">BLOG</a>
               </Link>
             </Nav.Item>   
 	    <Nav.Item>
               <Link href="/participa">
-                <a className="nav-link text-white primary-color a-navbar">Participá</a>
+                <a className="nav-link text-white primary-color a-navbar">PARTICIPA</a>
               </Link>
             </Nav.Item>                
           </Nav>
