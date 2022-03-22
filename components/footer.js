@@ -12,7 +12,7 @@ const Footer= () => {
 
     return (
         <>
-        <div className="footer fixed-bottom">
+        <div className={styles.footer}>
             <div className="container pt-5 pb-3 px-0">
                 <div className="row rowFooter">
                     <div className="md-footer col-6 col-sm-4 divFooter mt-0">
