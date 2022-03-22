@@ -6,6 +6,7 @@ import NavBar from "./NavBar";
 const Layout = ({ children }) => {
   return (
     <>
+      <main>{children}</main>
       <header><NavBar/></header>      
       <main className="container cajaPrincipal">{children}</main>
       <Footer/>
