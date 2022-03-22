@@ -17,7 +17,7 @@ export default function NavBar() {
               </Link>
             </Nav.Item> 
             <Nav.Item>
-              <Link href="/quienes-somos">
+              <Link href="/conocenos">
                 <a className="nav-link text-white primary-color a-navbar">¿Quiénes somos?</a>
               </Link>
             </Nav.Item>   
