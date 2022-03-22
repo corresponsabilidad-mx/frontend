@@ -1,20 +1,12 @@
 .footer {
-  background: rgb(112,64,156);
-  background: linear-gradient(176deg, rgba(112,64,156,0.9026961126247374) 0%, rgba(104,58,183,1) 100%);
+  background: #683AB7;
   display: flex;
-  border-top: 1px solid rgb(101, 27, 170);
   justify-content: center;
   align-items: center;
   color: black;
-  opacity: 1;
-  background-image: image();
+  flex: 1;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
 }
 
-.facebook-a{
-  color: white !important;
-}
-
-/* Solo para que el footer se visualice abajo */
-.cajaPrincipal{
-  height: 32.5em;
-}

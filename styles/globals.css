@@ -6,11 +6,33 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
 * {
   box-sizing: border-box;
 }
+
+h5, p, a{
+  color: white;
+  text-decoration: none !important;
+}
+
+.footer-icono{
+  color: #45DAB2;
+}
+
+
+@media (max-width: 767px){
+  .rowFooter{
+    padding-right: 0px;
+    padding-left: 17px;
+    width: 100%;
+  }
+  .divFooter{
+    width: 100% !important;
+    margin-top: 3% !important;
+  }
+
+  h5, p, a{
+    font-size: 14px;
+  }
+}
+
