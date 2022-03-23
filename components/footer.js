@@ -6,13 +6,11 @@ import { BsTelephoneFill } from "react-icons/bs";
 import Link from "next/link";
 import Image from "next/image";
 import 'bootstrap/dist/css/bootstrap.css';
-import styles from "../styles/Home.module.css";
 
 const Footer= () => {
-
     return (
         <>
-        <div className={styles.footer}>
+        <div className="footer">
             <div className="container pt-5 pb-3 px-0">
                 <div className="row rowFooter">
                     <div className="md-footer col-6 col-sm-4 divFooter mt-0">
