@@ -1,13 +1,12 @@
 import Footer from "./Footer";
 import "bootstrap/dist/css/bootstrap.min.css";
-import styles from "../styles/Home.module.css";
 import NavBar from "./NavBar";
 
 const Layout = ({ children }) => {
   return (
-    <>
-      <header><NavBar/></header>      
-      <main className="container cajaPrincipal">{children}</main>
+    <>    
+      <NavBar/>      
+      <main className="main">{children}</main>
       <Footer/>
     </>
   );
