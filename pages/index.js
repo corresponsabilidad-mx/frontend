@@ -1,5 +1,6 @@
 import Head from "next/head";
 import PhotoCarousel from "../components/carousel";
+import Alianzas from "../components/Alianzas";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 export default function Home() {
@@ -11,6 +12,7 @@ export default function Home() {
           <link rel="icon" href="/favicon.ico" />
         </Head>
         <PhotoCarousel></PhotoCarousel>
+        <Alianzas/>
     </>
   )
 }
