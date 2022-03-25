@@ -6,7 +6,7 @@ export default function NavBar() {
     <Navbar collapseOnSelect id="top" className="fixed-top" expand="lg" bg="light" variant="light" >   
       <div className="container">   
         <Navbar.Brand className="col-md-8 col-lg-4" href="/">
-          <Image src="/images/logo/logo.jpg" className="logo" alt="logo" style={{ width: "7.5rem" }}/>
+          <Image src="/images/logo/logo.jpg" alt="logo" style={{ width: "7.5rem" }}/>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
