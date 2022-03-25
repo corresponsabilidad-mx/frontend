@@ -26,8 +26,8 @@ const Alianzas= () => {
     <>
         <h4 className="titulo-alianzas">Estas son nuestras alianzas</h4>
         <div className="div-prin-alianzas">
-            {imgAlianzas.map((imgAlianza) => (
-                <li className="img-li">
+            {imgAlianzas.map((imgAlianza, index) => (
+                <li className="img-li" key={index}>
                     <Image
                     className="pb-2 ml-5 mr-5 img-alianzas"
                     src={imgAlianza}
