@@ -15,7 +15,6 @@ export default function NavBar() {
         <Navbar.Brand className="col-md-8 col-lg-4" href="/">
           <Image
             src="/images/logo/logo.jpg"
-            className="logo"
             alt="logo"
             style={{ width: "7.5rem" }}
           />

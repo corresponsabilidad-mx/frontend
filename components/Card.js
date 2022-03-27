@@ -22,7 +22,6 @@ const CardGroup = () => {
 
   return (
     <div className="m-5">
-      <h2>Cifras de impacto</h2>
       <Row xs={2} md={4} className="g-4">
         {info.map((c, idx) => {
           return (
