@@ -4,12 +4,12 @@ import Link from "next/link";
 
 const PhotoCarousel = () => {
   const images = [
-    "/images/carousel/carousel6 Photo by Anelale Nájera on Unsplash.jpg",
-    "/images/carousel/carousel7 Photo by Aquiles Carattino on Unsplash.jpg",
-    "/images/carousel/carousel8 Photo by Charu Chaturvedi on Unsplash.jpg",
-    "/images/carousel/carousel5.jpg",
-    "/images/carousel/carousel11 Photo by Womanizer Toys on Unsplash.jpg",
-    "/images/carousel/carousel3.jpg",
+    "/images/carousel/carousel2.jpg",
+    "/images/carousel/carousel4.jpg",
+    "/images/carousel/carousel6.jpg",
+    "/images/carousel/carousel9.jpg",
+    "/images/carousel/carousel8.jpg",
+    "/images/carousel/carousel10.jpg",
   ];
 
   return (

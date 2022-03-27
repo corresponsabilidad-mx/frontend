@@ -14,8 +14,8 @@ export default function NavBar() {
       <div className="container">
         <Navbar.Brand className="col-md-8 col-lg-4" href="/">
           <Image
-            src="/images/logo/logo.png"
-            className=""
+            src="/images/logo/logo.jpg"
+            className="logo"
             alt="logo"
             style={{ width: "7.5rem" }}
           />
@@ -33,35 +33,35 @@ export default function NavBar() {
             <Nav.Item>
               <Link href="/conocenos">
                 <a className="nav-link text-white primary-color a-navbar">
-                  ¿Quiénes somos?
+                  CONOCENOS
                 </a>
               </Link>
             </Nav.Item>
             <Nav.Item>
               <Link href="/proyectos">
                 <a className="nav-link text-white primary-color a-navbar">
-                  Proyectos
+                  PROYECTOS
                 </a>
               </Link>
             </Nav.Item>
             <Nav.Item>
               <Link href="/galeria">
                 <a className="nav-link text-white primary-color a-navbar">
-                  Galería
+                  GALERIA
                 </a>
               </Link>
             </Nav.Item>
             <Nav.Item>
               <Link href="/blog">
                 <a className="nav-link text-white primary-color a-navbar">
-                  Blog
+                  BLOG
                 </a>
               </Link>
             </Nav.Item>
             <Nav.Item>
               <Link href="/participa">
                 <a className="nav-link text-white primary-color a-navbar">
-                  Participá
+                  PARTICIPA
                 </a>
               </Link>
             </Nav.Item>
