@@ -2,6 +2,7 @@ import Head from "next/head";
 import PhotoCarousel from "../components/carousel";
 import "bootstrap/dist/css/bootstrap.min.css";
 import CardGroup from "../components/Card";
+import Video from "/components/Video";
 import Alianzas from "../components/Alianzas";
 
 export default function Home() {
@@ -14,6 +15,7 @@ export default function Home() {
       </Head>
       <PhotoCarousel></PhotoCarousel>
       <CardGroup />
+      <Video />
       <Alianzas />
     </>
   );
