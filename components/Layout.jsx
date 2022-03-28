@@ -4,10 +4,10 @@ import NavBar from "./NavBar";
 
 const Layout = ({ children }) => {
   return (
-    <>    
-      <NavBar/>      
+    <>
+      <NavBar />
       <main className="main">{children}</main>
-      <Footer/>
+      <Footer />
     </>
   );
 };
