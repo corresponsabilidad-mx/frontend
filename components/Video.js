@@ -3,11 +3,11 @@ const Video = () => {
     return (
       <>
       <div className="div-video">
-          <span class=" video-yout embed-responsive embed-responsive-4by3">
-              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Ku0BLi3FilY" allowfullscreen></iframe>
+          <span className=" video-yout embed-responsive embed-responsive-4by3">
+              <iframe className="embed-responsive-item" src="https://www.youtube.com/embed/Ku0BLi3FilY" allowFullScreen></iframe>
           </span>
-          <span class=" video-yout embed-responsive embed-responsive-4by3">
-              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/XtuotJR9GZw" allowfullscreen></iframe>
+          <span className=" video-yout embed-responsive embed-responsive-4by3">
+              <iframe className="embed-responsive-item" src="https://www.youtube.com/embed/XtuotJR9GZw" allowFullScreen></iframe>
           </span>
           <div className="div-bnt-video">
               <h4 className="video-h4">Nuestros eventos y novedades</h4>
