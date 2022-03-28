@@ -14,9 +14,9 @@ export default function NavBar() {
       <div className="container">
         <Navbar.Brand className="col-md-8 col-lg-4" href="/">
           <Image
-            src="/images/logo/logo.jpg"
+            src="/images/logo/logo.png"
             alt="logo"
-            style={{ width: "7.5rem" }}
+            style={{ width: "6.5rem", height:"6.5rem" }}
           />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />

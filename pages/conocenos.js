@@ -1,8 +1,10 @@
+import Nosotros from '../components/Nosotros';
+
 export default function Conocenos() {
 	return (
-	  <>
-		<h1>CONOCENOS</h1> 
-	  </>    
+		<div className="container">
+			<Nosotros />		
+	    </div>
 	  
 	)
 }
