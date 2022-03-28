@@ -128,6 +128,9 @@ body {
   margin-top: 1em;
 }
 
+.btn-carousel {
+  border-radius: 25px !important;
+}
 /* Media Queries */
 
 @media (max-width: 1200px) {
