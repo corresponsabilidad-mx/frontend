@@ -133,12 +133,13 @@ body {
   margin-left: 10em;
   margin-right: 10em;
   padding-top: 0em;
-  padding-bottom: 2em;
+  padding-bottom: 3em;
 }
 
 .titulo-alianzas{
   display: flex;
   justify-content: center;
+  margin-top: 1.5em;
 }
 
 .img-li {
@@ -219,6 +220,9 @@ body {
   .img-li{
     margin: 0 16px;
     margin-top: 1em;
+  }
+  .div-video{
+    margin-top: 3em;
   }
 }
 
