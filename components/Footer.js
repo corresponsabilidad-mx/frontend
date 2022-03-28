@@ -16,7 +16,7 @@ const Footer= () => {
                     <div className="md-footer col-6 col-sm-4 divFooter mt-0">
                         <Image
                         className="pb-2 ml-3"
-                        src="/../public/images/logo/logo-footer.png"
+                        src="/images/logo/logo-footer.png"
                         width={65}
                         height={70}
                         alt="logo"
