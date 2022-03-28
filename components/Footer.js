@@ -33,8 +33,8 @@ const Footer= () => {
                         <p className="letra-footer"><a className="text-white" href="https://www.instagram.com/corresponsabilidadsocialmx" rel="noreferrer" target="_blank">corresponsabilidadsocialmx</a></p>
                     </div>
                     <div className="md-footer col-6 col-sm-4 divFooter">
-                        <h5 className="letra-footer">Nuestro objetivo</h5>
-                        <p className="letra-footer">Instrumentar a acciones que construyan a una cultura de la Corresponsabilidad y paz desde el desarrollo, prevención y dignificación de los derechos de niñas, niños, adolescentes y mujeres.</p>
+                        <h5 className="letra-footer fw-bold"><em>Nuestro objetivo:</em></h5>
+                        <p className="letra-footer"><em>"Instrumentar a acciones que construyan a una cultura de la Corresponsabilidad y paz desde el desarrollo, prevención y dignificación de los derechos de niñas, niños, adolescentes y mujeres"</em></p>
                     </div>
                     
                 </div>

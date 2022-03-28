@@ -173,7 +173,9 @@ body {
   text-decoration: none !important;
 }
 
-
+.fw-bold{
+  text-decoration: underline !important;
+}
 
 /* Media Queries */
 
