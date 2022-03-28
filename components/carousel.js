@@ -4,12 +4,12 @@ import Link from "next/link";
 
 const PhotoCarousel = () => {
   const images = [
-    "/images/carousel/carousel6 Photo by Anelale Nájera on Unsplash.jpg",
-    "/images/carousel/carousel7 Photo by Aquiles Carattino on Unsplash.jpg",
-    "/images/carousel/carousel8 Photo by Charu Chaturvedi on Unsplash.jpg",
-    "/images/carousel/carousel5.jpg",
-    "/images/carousel/carousel11 Photo by Womanizer Toys on Unsplash.jpg",
-    "/images/carousel/carousel3.jpg",
+    "/images/carousel/carousel2.jpg",
+    "/images/carousel/carousel4.jpg",
+    "/images/carousel/carousel6.jpg",
+    "/images/carousel/carousel9.jpg",
+    "/images/carousel/carousel8.jpg",
+    "/images/carousel/carousel10.jpg",
   ];
 
   return (
@@ -28,9 +28,9 @@ const PhotoCarousel = () => {
           <Carousel.Caption>
             <h2>Quiénes somos</h2>
             <h5>Trabajamos por la prevención e igualdad de derechos</h5>
-            <Button className="mt-3 mb-3 fs-6 btn-light btn-lg">
-              <Link href="#">
-                <a className="text-decoration-none text-dark">CONOCENOS</a>
+            <Button className="mt-3 mb-3 fs-6 btn-light btn-lg btn-carousel">
+              <Link href="/conocenos">
+                <a className="text-decoration-none text-dark ">CONOCENOS</a>
               </Link>
             </Button>
           </Carousel.Caption>
