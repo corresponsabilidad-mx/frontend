@@ -34,7 +34,7 @@ const Footer= () => {
                     </div>
                     <div className="md-footer col-6 col-sm-4 divFooter">
                         <h5 className="letra-footer footer-cita"><em>Nuestro objetivo:</em></h5>
-                        <p className="letra-footer"><em>"Instrumentar a acciones que construyan a una cultura de la Corresponsabilidad y paz desde el desarrollo, prevención y dignificación de los derechos de niñas, niños, adolescentes y mujeres"</em></p>
+                        <p className="letra-footer"><em>&quot;Instrumentar a acciones que construyan a una cultura de la Corresponsabilidad y paz desde el desarrollo, prevención y dignificación de los derechos de niñas, niños, adolescentes y mujeres&quot;</em></p>
                     </div>
                     
                 </div>

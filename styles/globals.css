@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Tillana:wght@500;600&display=swap');
+
 html,
 body {
   padding: 0;
@@ -44,13 +46,11 @@ body {
   margin-top: 150px;
 }
 
-
 /* CAROUSEL */
 
 .btn-carousel {
   border-radius: 25px !important;
 }
-
 
 /* CARD */
 
@@ -77,55 +77,121 @@ body {
 }
 
 
+/* CARTA */
+
+.div-cifra{
+  padding: 0 2.3em 0px 2.3em;
+}
+
+.caja-cifra{
+  padding-top: 2em;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.icono-cifra{
+  font-size: 1.7em;
+  margin-bottom: 0.4em;
+}
+
+.num-letra-cifra-p{
+  font-size: 1em;
+  font-weight: 600;
+}
+
+.descrip-cifra{
+  margin: 1.3em 1.2em 2.3em 1.2em;
+  text-align: center;
+}
+
+.titulo-cifra{
+  color: black;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1.5em;
+}
+
+.contenedor-cifras{
+  display: flex;
+  text-align: center;
+}
+
+.div-cifra-center{
+  align-self: center;
+}
+
+.linea-vertical{
+  border-right: 1px solid #000;
+  margin: 0 1em 0 1em;
+}
+
+.div-carta{
+  background-color: #d5c0ecde;
+  border-radius: 2em;
+  padding: 2rem 4rem !important;
+  margin: 0 2em 0 2em !important;
+  box-shadow: 3px 3px #753bbd;
+}
+
+.icono-carta{
+  font-size: 3em;
+}
+
+.p-carta{
+  font-family: 'Tillana', cursive;
+}
+
 /* VIDEO */
 
-.div-video{
+.div-video {
   text-align: center;
   display: flex;
-  margin: 5em 0 2em 0em;
+  margin: 6em 0 2em 0em;
   justify-content: center;
   text-decoration-line: overline;
   text-decoration-thickness: from-font;
   flex-wrap: wrap;
 }
 
-.video-icono{
-  color: #00B388;
+.video-icono {
+  color: #00b388;
 }
 
-.boton-video{
+.boton-video {
   color: white;
-  background-color: #753BBD;
+  background-color: #753bbd;
   text-decoration: none;
   border: 0;
   border-radius: 25px;
   margin: 1em 1em 0em 0px;
+  padding-bottom: 0.2em;
 }
 
-.boton-video:hover{
-  background-color: #00B388
+.boton-video:hover {
+  background-color: #00b388;
 }
 
 .video-yout {
   margin: 0 1em 0.5em 1em;
 }
 
-.div-btn-video{ 
+.div-btn-video {
   margin-left: 1em;
   margin-top: 1em;
 }
 
-.video-text{
+.video-text {
+
   margin: 0.2em 0.2em 0.2em 0.2em;
 }
 
-.video-h4{
+.video-h4 {
   padding-top: 0.5em;
 }
 
 /* ALIANZAS */
 
-.div-prin-alianzas{
+.div-prin-alianzas {
   flex-wrap: wrap;
   display: flex;
   align-items: center;
@@ -136,10 +202,10 @@ body {
   padding-bottom: 3em;
 }
 
-.titulo-alianzas{
+.titulo-alianzas {
   display: flex;
   justify-content: center;
-  margin-top: 1.5em;
+  margin-top: 2em;
 }
 
 .img-li {
@@ -149,11 +215,10 @@ body {
   margin-top: 2em;
 }
 
-
 /* FOOTER */
 
 .footer {
-  background: #753BBD;
+  background: #753bbd;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -164,20 +229,42 @@ body {
   bottom: 0;
 }
 
-.footer-icono{ 
-  color: #45DAB2;
+.footer-icono {
+  color: #45dab2;
 }
 
-.letra-footer, .text-white{
+.letra-footer,
+.text-white {
   color: white;
   text-decoration: none !important;
 }
 
-.footer-cita{
+.footer-cita {
   text-decoration: underline !important;
 }
 
+/*PHOTO GALLERY*/
+
+.gallery-btn {
+  width: 150px !important;
+  height: 120px;
+  outline: none;
+  border: transparent;
+  border-radius: 10px;
+  background-color: #00b388;
+  color: #fff;
+  font-size: 2rem !important;
+  line-height: normal;
+  margin: 2rem;
+}
+
 /* Media Queries */
+
+@media screen and (min-width: 1025px) and (max-width: 2500px) {
+  .div-btn-video{
+    padding-left: 4em;
+  }
+}
 
 @media (max-width: 1200px) {
   .card-title {
@@ -197,6 +284,19 @@ body {
   }
 }
 
+@media (max-width: 768px) {
+    .div-carta{
+      margin: 0 0.5em 0 0.5em !important;
+      padding: 0rem 2rem !important;
+    }
+    .icono-carta{
+      margin: 0.5em 0 0.5em 0;
+    }
+    .linea-vertical{
+      border-right: none;
+    }
+  }
+
 @media (max-width: 767px) {
   .rowFooter {
     padding-right: 0px;
@@ -214,17 +314,20 @@ body {
   .card-title {
     font-size: 1.2rem !important;
   }
-  .div-prin-alianzas{
+  .div-prin-alianzas {
     margin-left: 0em;
     margin-right: 0em;
-    padding-bottom: 1em;
+    padding-bottom: 2em;
   }
-  .img-li{
+  .img-li {
     margin: 0 16px;
     margin-top: 1em;
   }
-  .div-video{
+  .div-video {
     margin-top: 3em;
+  }
+  .caja-cifra {
+    padding-top: 0;
   }
 }
 
