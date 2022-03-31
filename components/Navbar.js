@@ -7,9 +7,8 @@ export default function NavBar() {
       collapseOnSelect
       id="top"
       className="fixed-top"
-      expand="lg"
-      bg="light"
-      variant="light"
+      expand="lg"     
+      style={{backgroundColor: "lightgrey"}}
     >
       <div className="container">
         <Navbar.Brand className="col-md-8 col-lg-4" href="/">
