@@ -43,7 +43,7 @@ body {
 }
 
 .main {
-  margin-top: 150px;
+  margin-top: 130px;
 }
 
 /* CAROUSEL */
@@ -295,9 +295,12 @@ body {
     .linea-vertical{
       border-right: none;
     }
+    .carousel-caption{
+      padding: 0 !important;
+    }
   }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .rowFooter {
     padding-right: 0px;
     padding-left: 17px;
@@ -329,116 +332,32 @@ body {
   .caja-cifra {
     padding-top: 0;
   }
+  .gallery-image{
+    height: unset !important;
+    width: 250px !important
+  }
+  .photo-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  
 }
 
 @media (max-width: 480px) {
   .card-title {
     font-size: 0.8rem !important;
   }
+  .carousel-title{
+    font-size: 1.3rem !important;
+  }
+  .carousel-text{
+    font-size: 1rem !important;
+  }
+  .carousel-indicators{
+    margin: 0 !important;
+  }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .line-deco {
   width: 30px;
