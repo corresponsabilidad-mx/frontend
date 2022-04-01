@@ -4,9 +4,9 @@ import { Tree, TreeNode } from 'react-organizational-chart';
 export default function Organigrama () { 
 	return (
 		<>
-		<h1 className="primary-color bg-transparent p-3 text-center p-2">EQUIPO</h1>
-		<div className="bg-light mb-5 text-dark p-5 responsive">
-			<Tree lineWidth='2px' lineColor='green'lineBorderRadius='10px' className=" container responsive" label={<div>CONSEJO DIRECTIVO</div>} key={index}>
+		<h1 className="primary-color bg-transparent p-3 text-center p-2 display-none">EQUIPO</h1>
+		<div className="bg-light mb-5 text-dark p-5 display-none">
+			<Tree lineWidth='2px' lineColor='green'lineBorderRadius='10px' label={<div>CONSEJO DIRECTIVO</div>}>
 				<TreeNode label="DIRECCIÓN GENERAL">
 					<TreeNode label="COORDINACIÓN PROYECTOS DE DIAGNÓSTICO">
 						<TreeNode label="PROCESAMIENTO Y ANÁLISIS DE DATOS"/>

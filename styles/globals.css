@@ -365,8 +365,8 @@ body {
   background-color: #00b388;
 }
 
-@media (max-width: 1024px) {
-.responsive{
+@media (max-width: 1200px) {
+.display-none{
   display: none;
   }
 }
