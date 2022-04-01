@@ -364,3 +364,9 @@ body {
   height: 5px;  
   background-color: #00b388;
 }
+
+@media (max-width: 1024px) {
+.responsive{
+  display: none;
+  }
+}
