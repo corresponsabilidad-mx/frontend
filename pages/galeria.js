@@ -20,12 +20,27 @@ export default function Galeria() {
   return (
     <div className="container">
       {/* <Gallery /> */}
-      <h2>Niñas y Niños</h2>
-      <PhotoSection images={images} />
-      <h2>Adolescentes</h2>
-      <PhotoSection images={images2} />
-      <h2>Mujeres</h2>
-      <PhotoSection images={images3} />
+      <div className="row mb-3">
+        <h2 className="primary-color bg-transparent mb-2 text-start mt-3 p-2">
+          Niñas y Niños
+        </h2>
+        <div className="line-deco mb-2"></div>
+        <PhotoSection images={images} className="mb-5 bg-light p-5" />
+      </div>
+      <div className="row mb-3">
+        <h2 className="primary-color bg-transparent mb-2 text-start mt-3 p-2">
+          Adolescentes
+        </h2>
+        <div className="line-deco mb-2"></div>
+        <PhotoSection images={images2} />
+      </div>
+      <div className="row mb-3">
+        <h2 className="primary-color bg-transparent mb-2 text-start mt-3 p-2">
+          Mujeres
+        </h2>
+        <div className="line-deco mb-2"></div>
+        <PhotoSection images={images3} />
+      </div>
     </div>
   );
 }

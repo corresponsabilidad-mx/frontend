@@ -26,9 +26,11 @@ const PhotoCarousel = () => {
             layout="responsive"
           />
           <Carousel.Caption>
-            <h2>Quiénes somos</h2>
-            <h5>Trabajamos por la prevención e igualdad de derechos</h5>
-            <Button className="mt-3 mb-3 fs-6 btn-light btn-lg btn-carousel">
+            <h2 className="carousel-title">Quiénes somos</h2>
+            <h5 className="carousel-text">
+              Trabajamos por la prevención e igualdad de derechos
+            </h5>
+            <Button className="mt-md-3 mb-3 fs-6 btn-light btn-sm btn-carousel">
               <Link href="/conocenos">
                 <a className="text-decoration-none text-dark ">CONOCENOS</a>
               </Link>

@@ -18,10 +18,11 @@ const PhotoSection = ({ images }) => {
 
   return (
     <>
-      <div className="container">
+      <div className="photo-container">
         {images.map((src, index) => (
           // eslint-disable-next-line @next/next/no-img-element
           <img
+            className="gallery-image"
             src={src}
             onClick={() => openImageViewer(index)}
             height="200"
