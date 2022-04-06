@@ -244,8 +244,7 @@ body {
 }
 /*FORMULARIO*/
 .form-container{
-width: 100vw;
-height: 100vh;
+height: 60vh;
 display: flex;
 align-items: center;
 justify-content: center;
@@ -345,22 +344,19 @@ position: relative;
 }
 
 @media (max-width: 768px) {
-    .div-carta{
-      margin: 0 0.5em 0 0.5em !important;
-      padding: 0rem 2rem !important;
-    }
-    .icono-carta{
-      margin: 0.5em 0 0.5em 0;
-    }
-    .linea-vertical{
-      border-right: none;
-    }
-    .carousel-caption{
-      padding: 0 !important;
-    }
+  .div-carta{
+    margin: 0 0.5em 0 0.5em !important;
+    padding: 0rem 2rem !important;
   }
-
-@media (max-width: 768px) {
+  .icono-carta{
+    margin: 0.5em 0 0.5em 0;
+  }
+  .linea-vertical{
+    border-right: none;
+  }
+  .carousel-caption{
+    padding: 0 !important;
+  }
   .rowFooter {
     padding-right: 0px;
     padding-left: 17px;

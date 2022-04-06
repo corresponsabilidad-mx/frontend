@@ -19,19 +19,6 @@ const Form = () => {
             placeholder="E-mail"
             className="input-form"
           ></input>
-          {/* <div className="d-flex flex-row align-items-start">
-            <label className="me-2">
-              Deseo recibir información de la institución:
-            </label>
-            <span className="d-flex align-top">
-              <input
-                type="radio"
-                name="entry.724166614"
-                className="checkbox-form me-2"
-              ></input>
-              <label className="fw-bold">SI</label>
-            </span>
-          </div> */}
           <button type="submit" className="btn-form">
             Enviar
           </button>

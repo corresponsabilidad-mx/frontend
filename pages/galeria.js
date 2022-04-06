@@ -1,4 +1,3 @@
-import Gallery from "../components/PhotoGallery";
 import { PhotoSection } from "../components/KidsGallery";
 
 export default function Galeria() {
