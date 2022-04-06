@@ -11,13 +11,13 @@ export default function Conocenos() {
 			<div className="pt-5 pb-5 secondary-color navbar-nav flex-fill justify-content-between align-items-center">
 				<div  className="text-center display-none">{!show && <Organigrama /> }</div>
 				<button
-				className="btn btn-lg text-white btn-outline-secondary"
+				className="btn btn-lg text-white btn-outline-secondary p-3"
 				type="button"
 				onClick={() => {
 				setShow(!show);
 				}}
 				>
-				{show ? "EQUIPO AQUÍ  👇🏻 " : " ✖️ "}
+				{show ? "NUESTRO EQUIPO DE TRABAJO  👇🏻 " : " ✖️ "}
 				</button>	
 			</div>				
 	    	</div>	  

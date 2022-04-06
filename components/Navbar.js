@@ -6,9 +6,9 @@ export default function NavBar() {
     <Navbar
       collapseOnSelect
       id="top"
-      className="fixed-top"
+      className="fixed-top navbar-style"
       expand="lg"     
-      style={{backgroundColor: "lightgrey"}}
+      style={{backgroundColor: "#f5f5f5"}}
     >
       <div className="container">
         <Navbar.Brand className="col-md-8 col-lg-4" href="/">
