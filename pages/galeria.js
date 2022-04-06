@@ -19,7 +19,6 @@ export default function Galeria() {
   ];
   return (
     <div className="container">
-      {/* <Gallery /> */}
       <div className="row mb-3">
         <h2 className="primary-color bg-transparent mb-2 text-start mt-3 p-2">
           Niñas y Niños
