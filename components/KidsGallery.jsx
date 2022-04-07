@@ -42,6 +42,8 @@ const PhotoSection = ({ images }) => {
               backgroundColor: "rgba(0,0,0,0.9)",
             }}
             closeOnClickOutside={true}
+            style={{ marginTop: "50px" }}
+            className="margin-top-100"
           />
         )}
       </div>

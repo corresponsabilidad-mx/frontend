@@ -28,10 +28,6 @@ body {
 
 /* NAVBAR */
 
-.navbar-style{
-  box-shadow: 0px 0px 3px grey;
-}
-
 .a-navbar {
   width: 120px;
   border-radius: 25px;
@@ -246,7 +242,58 @@ body {
 .footer-cita {
   text-decoration: underline !important;
 }
+/*FORMULARIO*/
+.form-container{
+height: 60vh;
+display: flex;
+align-items: center;
+justify-content: center;
+position: relative; 
 
+}
+.form-container::before{  
+  content: "";
+  background-image: url("../public/images/cards/carousel11.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  opacity: 0.25;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+}
+.input-form{
+  width: 350px ;
+  margin-bottom: 0.8rem;
+  border-radius: 5px;
+  border: transparent;
+  filter: drop-shadow(0.10rem 0.10rem 0.2rem rgba(0, 0, 0, 0.5));
+}
+.btn-form{
+  width: 350px ;
+  height: 35px;
+  background-color: #753bbd;
+  color:#fff;
+  margin-bottom: 0.8rem;
+  border-radius: 5px;
+  border: transparent;
+  filter: drop-shadow(0.10rem 0.10rem 0.2rem rgba(0, 0, 0, 0.5));
+  }
+  .btn-form:hover{
+    background-color:#00b388;
+  }
+.checkbox-form{
+  width: 20px ;
+  height: 20px;
+  background-color: #753bbd;
+  color:#fff;
+  margin-bottom: 0.8rem;
+  border-radius: 5px;
+  border: transparent;
+  filter: drop-shadow(0.05rem 0.05rem 0.1rem rgba(0, 0, 0, 0.5));
+}
 /*PHOTO GALLERY*/
 
 .gallery-btn {
@@ -262,7 +309,15 @@ body {
   margin: 2rem;
 }
 
-/* MEDIA QUERIES */
+.styles-module_close__2I1sI {
+  top: 90% !important;
+  right: 50% !important;  
+}
+/* .styles-module_image__2hdkJ{
+  margin-top: 200px !important;
+} */
+
+/* Media Queries */
 
 @media screen and (min-width: 1025px) and (max-width: 2500px) {
   .div-btn-video{
@@ -289,22 +344,19 @@ body {
 }
 
 @media (max-width: 768px) {
-    .div-carta{
-      margin: 0 0.5em 0 0.5em !important;
-      padding: 0rem 2rem !important;
-    }
-    .icono-carta{
-      margin: 0.5em 0 0.5em 0;
-    }
-    .linea-vertical{
-      border-right: none;
-    }
-    .carousel-caption{
-      padding: 0 !important;
-    }
+  .div-carta{
+    margin: 0 0.5em 0 0.5em !important;
+    padding: 0rem 2rem !important;
   }
-
-@media (max-width: 768px) {
+  .icono-carta{
+    margin: 0.5em 0 0.5em 0;
+  }
+  .linea-vertical{
+    border-right: none;
+  }
+  .carousel-caption{
+    padding: 0 !important;
+  }
   .rowFooter {
     padding-right: 0px;
     padding-left: 17px;
@@ -383,4 +435,15 @@ body {
     color:#753bbd!important;
     background-color: transparent;
   }
+
+.navbar-style{
+  box-shadow: 0px 0px 3px grey;
+}
+
+
+
+
+
+
+
 }
