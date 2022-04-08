@@ -3,6 +3,7 @@ import { BsInstagram } from "react-icons/bs";
 import { BsFillEnvelopeFill } from "react-icons/bs";
 import { BsGeoAltFill } from "react-icons/bs";
 import { BsTelephoneFill } from "react-icons/bs";
+import { BsLinkedin } from "react-icons/bs";
 import Link from "next/link";
 import Image from "next/image";
 import 'bootstrap/dist/css/bootstrap.css';
@@ -36,7 +37,21 @@ const Footer= () => {
                         <h5 className="letra-footer footer-cita"><em>Nuestro objetivo:</em></h5>
                         <p className="letra-footer"><em>&quot;Instrumentar a acciones que construyan a una cultura de la Corresponsabilidad y paz desde el desarrollo, prevención y dignificación de los derechos de niñas, niños, adolescentes y mujeres&quot;</em></p>
                     </div>
-                    
+                </div>
+            </div>
+        </div>
+        <div className='programadoras'>
+            <div className="container">
+                <div className="row">
+                    <div className="md-contacto col-12 col-md-4 linkedin-center">
+                        <p className="p-linkedin"><BsLinkedin className="prog-icon" /><Link href="https://www.linkedin.com/in/mariana-deleau"><a className= "text-white" target="_blank">Mariana Deleau</a></Link></p>
+                    </div>
+                    <div className="md-contacto col-12 col-md-4 linkedin-center">
+                        <p className="p-linkedin"><BsLinkedin className="prog-icon" /><Link href="https://www.linkedin.com/in/marina-falcon"><a className= "text-white" target="_blank">Marina Falcón</a></Link></p>
+                    </div>
+                    <div className="md-contacto col-12 col-md-4 linkedin-center">
+                        <p className="p-linkedin"><BsLinkedin className="prog-icon" /><Link href="https://www.linkedin.com/in/silvina-n-s%C3%A1nchez"><a className= "text-white" target="_blank">Silvina Sánchez</a></Link></p>
+                    </div>
                 </div>
             </div>
         </div>
