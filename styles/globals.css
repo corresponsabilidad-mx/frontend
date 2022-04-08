@@ -53,27 +53,47 @@ body {
 }
 
 /* CARD */
-
+.card-drop{
+  border: none !important;
+  min-width: 300px !important;
+  min-height: 300px !important;
+  align-items: center !important;
+  display: flex;
+  margin-top: 0 !important;
+  padding: 0 !important;  
+}
 .card {
   border: none !important;
 }
 .card-title {
   color: #fff;
   font-weight: 900;
-  font-size: 2rem !important;
+  font-size: 1.8rem !important;
   text-align: center;
 }
 .card-img,
 .card-img-top {
   border-radius: 2rem !important;
+  border-radius: 50% 0 50% 50% !important;
+  width: 250px !important;
+  height: 250px !important;
 }
+
 .card-overlay {
   background-color: hsla(0, 9%, 11%, 0.37);
   display: flex;
-  align-items: center;
+  align-items: center;  
 }
+
 .card-img-overlay {
   border-radius: 2rem !important;
+  border-radius: 50% 0 50% 50% !important;
+  width: 250px !important;
+  height: 250px !important;
+}
+
+.card-body{
+  padding: 0 !important;
 }
 
 

@@ -26,10 +26,10 @@ const CardGroup = () => {
 
   return (
     <div className="m-5">
-      <Row xs={2} md={4} className="g-4">
+      <Row xs={2} md={4} className="g-4 d-flex justify-content-center">
         {info.map((c, idx) => {
           return (
-            <Col key={idx}>
+            <Col className="card-drop d-flex justify-content-center" key={idx}>
               <Link href={c.href} passHref>
                 <Card className="card">
                   <Card.Img variant="top" src={c.src} />
