@@ -269,21 +269,83 @@ body {
   text-decoration: underline !important;
 }
 
-/*PHOTO GALLERY*/
 
-.gallery-btn {
-  width: 150px !important;
-  height: 120px;
-  outline: none;
-  border: transparent;
-  border-radius: 10px;
-  background-color: #00b388;
-  color: #fff;
-  font-size: 2rem !important;
-  line-height: normal;
-  margin: 2rem;
-}
+/*FORMULARIO*/
+.form-container{
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative; 
+  
+  }
+  .form-container::before{  
+    content: "";
+    background-image: url("../public/images/cards/carousel11.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.25;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+  }
+  .input-form{
+    width: 350px ;
+    margin-bottom: 0.8rem;
+    border-radius: 5px;
+    border: transparent;
+    filter: drop-shadow(0.10rem 0.10rem 0.2rem rgba(0, 0, 0, 0.5));
+  }
+  .btn-form{
+    width: 350px ;
+    height: 35px;
+    background-color: #753bbd;
+    color:#fff;
+    margin-bottom: 0.8rem;
+    border-radius: 5px;
+    border: transparent;
+    filter: drop-shadow(0.10rem 0.10rem 0.2rem rgba(0, 0, 0, 0.5));
+    }
+    .btn-form:hover{
+      background-color:#00b388;
+    }
+  .checkbox-form{
+    width: 20px ;
+    height: 20px;
+    background-color: #753bbd;
+    color:#fff;
+    margin-bottom: 0.8rem;
+    border-radius: 5px;
+    border: transparent;
+    filter: drop-shadow(0.05rem 0.05rem 0.1rem rgba(0, 0, 0, 0.5));
+  }
 
+  /*PHOTO GALLERY*/
+  
+  .gallery-btn {
+    width: 150px !important;
+    height: 120px;
+    outline: none;
+    border: transparent;
+    border-radius: 10px;
+    background-color: #00b388;
+    color: #fff;
+    font-size: 2rem !important;
+    line-height: normal;
+    margin: 2rem;
+  }
+  
+  .styles-module_close__2I1sI {
+    top: 90% !important;
+    right: 50% !important;  
+  }
+  /* .styles-module_image__2hdkJ{
+    margin-top: 200px !important;
+  } */
+  
 
 /*PÁGINA PROYECTO*/
 
@@ -349,6 +411,7 @@ body {
  .card-espec{
   text-align: initial;
  }
+
  
 /* MEDIA QUERIES */
 
