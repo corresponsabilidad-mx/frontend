@@ -358,7 +358,7 @@ body {
 
 .tab-obj{
   padding: 1% 10% 7% 10%;
-  background-color: #ffdff2;
+  background-color: #efdfff;
   text-align: start;
   border: ridge;
 }
@@ -377,7 +377,7 @@ body {
 }
 
 .tabs-style{
-  background-color: #daf0ff;
+  background-color: #83d8c56b;
   font-family: sans-serif;
 }
 
@@ -396,7 +396,7 @@ body {
 }
 
 .text-proyectos{
-  color: #c6009ded;
+  color: #7018afdc;
 }
 
 .contenedor-card{

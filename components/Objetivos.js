@@ -16,9 +16,9 @@ function Objetivos() {
         id="controlled-tab-example"
         activeKey={key}
         onSelect={(k) => setKey(k)}
-        className="tabs-style"
+        className="tabs-style" 
       >
-        <Tab eventKey="diagnostico" title="Diagnóstico e Investigación">
+        <Tab className="tab-style" eventKey="diagnostico" title="Diagnóstico e Investigación">
           <div className=" pt-3 tab-obj">
             <h5>Realizamos modelos de intervención diagnóstica georeferenciada en prevención de violencia contra niñas, niños y adolescentes, como a las mujeres, el desarrollo sostenible y población en contexto de institucionalización, tales como:</h5>
             <br/>
