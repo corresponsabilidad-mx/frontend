@@ -27,7 +27,7 @@ function ProyectosEspeciales() {
                         <h5 className="card-title text-proyectos">Embarazo en adolescentes</h5>
                         <span><BsFillArrowDownCircleFill fontSize={20} /></span><br/><br/>
                         <p className="card-text card-espec">
-                            <span><BsPinAngleFill/> Campaña: “Antes de dar vida, mi proyecto de vida”.</span><br/><br/>
+                            <span><BsPinAngleFill/> Campaña: &quot;Antes de dar vida, mi proyecto de vida&quot;.</span><br/><br/>
                             <span><BsPinAngleFill/> Fortalecimiento a Grupos Estatales de prevención del Embarazo en Adolescentes.</span><br/><br/>
                             <span><BsPinAngleFill/> Incidencia y evaluación de políticas públicas en prevención de embarazo en niñas y adolescentes.</span><br/><br/>
                         </p>
@@ -71,7 +71,7 @@ function ProyectosEspeciales() {
                         <h5 className="card-title text-proyectos">Trabajo Infantil</h5>
                         <span><BsFillArrowDownCircleFill fontSize={20} /></span><br/><br/>
                         <p className="card-text card-espec">
-                            <span><BsPinAngleFill/> Campaña: “Di no a la explotación laboral de niñas, niños y adolescentes".</span><br/><br/>
+                            <span><BsPinAngleFill/> Campaña: &quot;Di no a la explotación laboral de niñas, niños y adolescentes&quot;.</span><br/><br/>
                             <span><BsPinAngleFill/> Seguimiento en la Comisión Intersecretarial para Prevención y Erradicación del Trabajo Infantil y la Protección de Adolescentes Trabajadores en Edad Permitida (CITI).</span><br/><br/>
                             <span><BsPinAngleFill/> Apoyo en la implantación de estándares y códigos de trabajo infantil exigibles por mercados globales y consumidores.</span><br/><br/>
                             <span><BsPinAngleFill/> Incidencia y evaluación de políticas públicas para erradicar el Trabajo Infantil.</span>
