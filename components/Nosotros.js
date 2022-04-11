@@ -7,13 +7,13 @@ export default function Nosotros  ()  {
 				<div className="container">
 					<div className="mb-5">						
 						<div className="container p-5 col-sm-8">      
-							<Card className="">
+							<Card className="row">
 								<Card.Img variant="top" src="/images/carousel/carousel3.jpg" style={{borderRadius: "35px"}} />
 								<Card.ImgOverlay className="card-overlay">									
 									<Card.Body className="container">
 										<div className="mb-5 text-center mt-4">
-											<h1 className="text-white mb-5">Corresponsabilidad Social Mexicana </h1>																
-											<h4 className="text-white">Es una organización sin fines de lucro creada con la finalidad de atender las demandas en prevención a las diversas formas de violencia social y desigualdad que viven niñas, niños, adolescentes y mujeres.</h4>				
+											<h1 className="text-white mb-5" >Corresponsabilidad Social Mexicana </h1>																
+											<h4 className="text-white responsive-text" >Es una organización sin fines de lucro creada con la finalidad de atender las demandas en prevención a las diversas formas de violencia social y desigualdad que viven niñas, niños, adolescentes y mujeres.</h4>				
 										</div>
 									</Card.Body>
 								</Card.ImgOverlay>
