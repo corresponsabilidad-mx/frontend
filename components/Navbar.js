@@ -20,10 +20,10 @@ export default function NavBar() {
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
-          <Nav className="mr-auto navbar-nav justify-content-between align-items-center">
+          <Nav className="mr-auto navbar-nav align-items-center">
             <Nav.Item>
               <Link href="/">
-                <a className="nav-link active a-navbar">
+                <a className="nav-link a-navbar">
                   INICIO                
                 </a>
               </Link>
