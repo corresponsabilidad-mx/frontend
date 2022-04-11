@@ -558,15 +558,13 @@ position: relative;
   .a-navbar:hover {
     color:#00b388!important;
     background-color: transparent;
-  }
-  .responsive-text{
-    font-size: 1rem; 
-  }
+  }  
 }
 
 .btn-equipo{
   background-color: #753bbd !important;
-  font-size: 24px !important;
+  font-size: 1.5rem !important;
+  font-weight: bold;
   color: white !important;
 }
 
