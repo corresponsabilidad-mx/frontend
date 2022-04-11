@@ -23,42 +23,43 @@ export default function NavBar() {
           <Nav className="mr-auto navbar-nav flex-fill justify-content-between align-items-center">
             <Nav.Item>
               <Link href="/">
-                <a className="nav-link active a-navbar"><strong>INICIO</strong>                  
+                <a className="nav-link active a-navbar">
+                  INICIO                
                 </a>
               </Link>
             </Nav.Item>
             <Nav.Item>
               <Link href="/conocenos">
                 <a className="nav-link a-navbar">
-                <strong>CONOCENOS</strong>                  
+                CONOCENOS                  
                 </a>
               </Link>
             </Nav.Item>
             <Nav.Item>
               <Link href="/proyectos">
                 <a className="nav-link a-navbar">
-                <strong> PROYECTOS</strong>                 
+                PROYECTOS                
                 </a>
               </Link>
             </Nav.Item>
             <Nav.Item>
               <Link href="/galeria">
                 <a className="nav-link a-navbar">
-                <strong> GALERIA</strong>                 
+                GALERIA              
                 </a>
               </Link>
             </Nav.Item>
             <Nav.Item>
               <Link href="/blog">
                 <a className="nav-link a-navbar">
-                <strong> BLOG </strong>                  
+                BLOG                 
                 </a>
               </Link>
             </Nav.Item>
             <Nav.Item>
               <Link href="/participa">
                 <a className="nav-link a-navbar">
-                <strong> PARTICIPA </strong>                  
+                PARTICIPA                 
                 </a>
               </Link>
             </Nav.Item>
