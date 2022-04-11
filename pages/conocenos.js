@@ -8,10 +8,10 @@ export default function Conocenos() {
 	return (
 		<div className="container mb-5">
 			<Nosotros />
-			<div className="pt-5 pb-5 navbar-nav flex-fill justify-content-between align-items-center">
+			<div className="pt-5 pb-5 text-center">
 				<div  className="text-center">{!show && <Organigrama /> }</div>
 				<button				
-				className="btn btn-lg btn-equipo p-4"
+				className="btn btn-equipo p-4 text-center"
 				type="button"
 				onClick={() => {
 				setShow(!show);

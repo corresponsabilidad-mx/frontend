@@ -11,16 +11,16 @@ export default function NavBar() {
       style={{backgroundColor: "#f5f5f5"}}
     >
       <div className="container">
-        <Navbar.Brand className="col-md-8 col-lg-4" href="/">
+        <Navbar.Brand className="col-lg-3" href="/">
           <Image
             src="/images/logo/logo.png"
             alt="logo"
-            style={{ width: "6.5rem"}}
+            style={{ width: "5rem"}}
           />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
-          <Nav className="mr-auto navbar-nav align-items-center">
+          <Nav className="mr-auto navbar-nav flex-fill justify-content-between align-items-center">
             <Nav.Item>
               <Link href="/">
                 <a className="nav-link a-navbar">
