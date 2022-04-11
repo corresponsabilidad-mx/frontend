@@ -15,7 +15,7 @@ export default function NavBar() {
           <Image
             src="/images/logo/logo.png"
             alt="logo"
-            style={{ width: "5.5rem"}}
+            style={{ width: "5rem"}}
           />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
