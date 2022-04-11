@@ -28,11 +28,9 @@ body {
 }
 
 /* NAVBAR */
-
 .navbar-style{
   box-shadow: 0px 0px 5px #00b388;  
 }
-
 .a-navbar {
   width: 120px;
   border-radius: 15px;
@@ -63,27 +61,31 @@ body {
 }
 
 /* CARD */
-
+.card-drop{
+  border: none !important;
+  width: 250px !important;
+  height: 250px !important;
+  min-width: 300px !important;
+  min-height: 300px !important;
+  align-items: center !important;
+  justify-content: center;
+  display: flex;
+  margin-top: 0 !important;
+  border-radius: 50% 0 50% 50% !important
+}
 .card {
   border: none !important;
+  
 }
 .card-title {
   color: #fff;
   font-weight: 900;
-  font-size: 2rem !important;
+  font-size: 1.8rem !important;
   text-align: center;
 }
-.card-img,
-.card-img-top {
-  border-radius: 2rem !important;
-}
-.card-overlay {
-  background-color: hsla(0, 9%, 11%, 0.37);
-  display: flex;
-  align-items: center;
-}
-.card-img-overlay {
-  border-radius: 2rem !important;
+
+.card-body{
+  padding: 0 !important;  
 }
 
 
@@ -224,9 +226,7 @@ body {
   margin-top: 2em;
 }
 
-
-/* FOOTER Y PROGRAMADORAS*/
-
+/* FOOTER */
 .programadoras{
   background: #452d63;
 }
@@ -275,84 +275,77 @@ body {
 .footer-cita {
   text-decoration: underline !important;
 }
-
-
 /*FORMULARIO*/
 .form-container{
-  height: 60vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: relative; 
-  
-  }
-  .form-container::before{  
-    content: "";
-    background-image: url("../public/images/cards/carousel11.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    opacity: 0.25;
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-  }
-  .input-form{
-    width: 350px ;
-    margin-bottom: 0.8rem;
-    border-radius: 5px;
-    border: transparent;
-    filter: drop-shadow(0.10rem 0.10rem 0.2rem rgba(0, 0, 0, 0.5));
-  }
-  .btn-form{
-    width: 350px ;
-    height: 35px;
-    background-color: #753bbd;
-    color:#fff;
-    margin-bottom: 0.8rem;
-    border-radius: 5px;
-    border: transparent;
-    filter: drop-shadow(0.10rem 0.10rem 0.2rem rgba(0, 0, 0, 0.5));
-    }
-    .btn-form:hover{
-      background-color:#00b388;
-    }
-  .checkbox-form{
-    width: 20px ;
-    height: 20px;
-    background-color: #753bbd;
-    color:#fff;
-    margin-bottom: 0.8rem;
-    border-radius: 5px;
-    border: transparent;
-    filter: drop-shadow(0.05rem 0.05rem 0.1rem rgba(0, 0, 0, 0.5));
-  }
+height: 60vh;
+display: flex;
+align-items: center;
+justify-content: center;
+position: relative; 
 
-  /*PHOTO GALLERY*/
-  
-  .gallery-btn {
-    width: 150px !important;
-    height: 120px;
-    outline: none;
-    border: transparent;
-    border-radius: 10px;
-    background-color: #00b388;
-    color: #fff;
-    font-size: 2rem !important;
-    line-height: normal;
-    margin: 2rem;
+}
+.form-container::before{  
+  content: "";
+  background-image: url("../public/images/cards/carousel11.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  opacity: 0.25;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+}
+.input-form{
+  width: 350px ;
+  margin-bottom: 0.8rem;
+  border-radius: 5px;
+  border: transparent;
+  filter: drop-shadow(0.10rem 0.10rem 0.2rem rgba(0, 0, 0, 0.5));
+}
+.btn-form{
+  width: 350px ;
+  height: 35px;
+  background-color: #753bbd;
+  color:#fff;
+  margin-bottom: 0.8rem;
+  border-radius: 5px;
+  border: transparent;
+  filter: drop-shadow(0.10rem 0.10rem 0.2rem rgba(0, 0, 0, 0.5));
   }
-  
-  .styles-module_close__2I1sI {
-    top: 90% !important;
-    right: 50% !important;  
+  .btn-form:hover{
+    background-color:#00b388;
   }
-  /* .styles-module_image__2hdkJ{
-    margin-top: 200px !important;
-  } */
-  
+.checkbox-form{
+  width: 20px ;
+  height: 20px;
+  background-color: #753bbd;
+  color:#fff;
+  margin-bottom: 0.8rem;
+  border-radius: 5px;
+  border: transparent;
+  filter: drop-shadow(0.05rem 0.05rem 0.1rem rgba(0, 0, 0, 0.5));
+}
+/*PHOTO GALLERY*/
+
+.gallery-btn {
+  width: 150px !important;
+  height: 120px;
+  outline: none;
+  border: transparent;
+  border-radius: 10px;
+  background-color: #00b388;
+  color: #fff;
+  font-size: 2rem !important;
+  line-height: normal;
+  margin: 2rem;
+}
+
+.styles-module_close__2I1sI {
+  top: 90% !important;
+  right: 50% !important;  
+}
 
 /*PÁGINA PROYECTO*/
 
@@ -419,7 +412,6 @@ body {
   text-align: initial;
  }
 
- 
 /* MEDIA QUERIES */
 
 @media screen and (min-width: 1025px) and (max-width: 2500px) {
@@ -433,6 +425,10 @@ body {
 }
 
 @media (max-width: 1200px) {
+  .card-drop{
+    margin-top: 15px !important;
+  }
+
   .card-title {
     font-size: 1.5rem !important;
   }
@@ -445,15 +441,13 @@ body {
   .card-body {
     padding: 0 !important;
   }
-  .card-img-overlay {
-    padding: 0 !important;
-  }
+ 
 }
 
 @media (max-width: 768px) {
   .div-carta{
     margin: 0 0.5em 0 0.5em !important;
-     padding: 0rem 2rem !important;
+    padding: 0rem 2rem !important;
   }
   .icono-carta{
     margin: 0.5em 0 0.5em 0;
@@ -504,6 +498,7 @@ body {
     align-items: center;
     flex-direction: column;
   }
+
   .p-linkedin{
     justify-content: flex-start;
     font-family: ui-monospace;
@@ -518,6 +513,7 @@ body {
  .card-espec{
   padding: 0px 6px 0px 7px;
  }
+  
 }
 
 @media (max-width: 767px) {
