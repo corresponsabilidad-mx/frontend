@@ -50,7 +50,7 @@ body {
 }
 
 .main {
-  margin-top: 121px;
+  margin-top: 100px;
 }
 
 /* CAROUSEL */
@@ -132,20 +132,25 @@ body {
 }
 
 .linea-vertical{
-  border-right: 1px solid #000;
+  border-right: 2px solid #00b388;
   margin: 0 1em 0 1em;
 }
 
 .div-carta{
   background-color: #d5c0ecde;
   border-radius: 2em;
-  padding: 2rem 4rem !important;
+  padding: 1em 3em !important;
   margin: 0 2em 0 2em !important;
   box-shadow: 3px 3px #753bbd;
 }
 
-.icono-carta{
-  font-size: 3em;
+.foto-rosa{
+  justify-content: center;
+  border-radius: 10%;
+}
+
+.espacio{
+  text-indent: 80px;
 }
 
 .p-carta{
@@ -160,7 +165,7 @@ body {
   margin: 6em 0 2em 0em;
   justify-content: center;
   text-decoration-line: overline;
-  text-decoration-thickness: from-font;
+  text-decoration-color: #00b388;
   flex-wrap: wrap;
 }
 
@@ -169,17 +174,14 @@ body {
 }
 
 .boton-video {
-  color: white;
-  background-color: #753bbd;
-  text-decoration: none;
+  background-color: transparent;
   border: 0;
-  border-radius: 25px;
   margin: 1em 1em 0em 0px;
   padding-bottom: 0.2em;
 }
 
-.boton-video:hover {
-  background-color: #00b388;
+.video-text:hover {
+  color: #00b388;
 }
 
 .video-yout {
@@ -191,8 +193,10 @@ body {
 }
 
 .video-text {
-
   margin: 0.2em 0.2em 0.2em 0.2em;
+  color: #753bbd;
+  text-decoration: none;
+  font-weight: 600;
 }
 
 .video-h4 {
@@ -206,16 +210,18 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-left: 10em;
-  margin-right: 10em;
-  padding-top: 0em;
+  margin-left: 5em;
+  margin-right: 5em;
+  padding-top: 0;
   padding-bottom: 3em;
 }
 
 .titulo-alianzas {
   display: flex;
   justify-content: center;
-  margin-top: 2em;
+  margin-top: 2.4em;
+  text-decoration-line: overline;
+  text-decoration-color: #00b388;
 }
 
 .img-li {
@@ -509,10 +515,12 @@ position: relative;
   .cajaPrincipal-objetivos {
     padding: 0px 4% 5% 4%;
  }
- .card-espec{
-  padding: 0px 6px 0px 7px;
+  .card-espec{
+    padding: 0px 6px 0px 7px;
  }
-  
+  .contenedor-foto{
+    margin-top: 5%;
+ }
 }
 
 @media (max-width: 767px) {
@@ -522,6 +530,12 @@ position: relative;
   }
   .title-ejes {
     margin: 9% 8% 6% 8%;
+ }
+  .contenedor-foto{
+    text-align: center;
+ }
+  .espacio{
+    text-indent: 0;
  }
 }
 

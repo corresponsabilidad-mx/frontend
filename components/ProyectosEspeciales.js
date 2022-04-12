@@ -59,13 +59,13 @@ function ProyectosEspeciales() {
                 <div className="col">
                     <div className="card h-100">
                         <div>
-                        <Image 
-                            src="/images/proyectos/engrajes.png" 
-                            className="card-img-top" 
-                            alt="equipo"
-                            width={150}
-                            height={110}
-                        ></Image>
+                            <Image 
+                                src="/images/proyectos/engrajes.png" 
+                                className="card-img-top" 
+                                alt="equipo"
+                                width={150}
+                                height={110}
+                            ></Image>
                         </div>
                     <div className="card-body tarj-espec">
                         <h5 className="card-title text-proyectos">Trabajo Infantil</h5>
@@ -125,7 +125,7 @@ function ProyectosEspeciales() {
                     </div>
                 </div>
                 <div className="col">
-                    <div className="card tarj-espec h-100">
+                    <div className="card h-100">
                         <div>
                         <Image 
                             src="/images/proyectos/manos.png" 
