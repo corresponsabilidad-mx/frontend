@@ -361,22 +361,52 @@ position: relative;
  }
 
 .tab-obj{
-  padding: 1% 10% 7% 10%;
-  background-color: #efdfff;
+  padding: 1% 10% 3% 10%;
+  background-color: #efe6f8;;
   text-align: start;
   border: ridge;
+}
+
+.title-proyectosPob{
+  padding: 8% 8% 4% 8%;
+  font-style: italic;
+  color: #753bbd;
+  text-decoration: underline;
+  text-decoration-color: #00b388;
+  text-align: center !important;
+}
+
+.title-pob{
+  color: #008364;;
+  padding: 3% 0 3% 0;
+  text-align: center !important;
+}
+
+.box-kids{
+  margin-top: 0 !important;
+}
+
+.caja-pob{
+  border: 1px solid #00b388;
+  border-radius: 3%;
+  margin-bottom: 6%;
+  padding: 0 2% 0 2%;
+  background-color: azure;
+  margin-right: 9%;
+  margin-left: 9%;
 }
 
 .title-proyectos{
   padding-top: 5%;
   color: #592e8f;
+  text-align: center !important;
 }
 
 .title-ejes{
-  margin: 8% 8% 4% 8%;
+  padding: 5% 8% 4% 8%;
   font-style: italic;
   color: #753bbd;
-  text-decoration: overline;
+  text-decoration: underline;
   text-decoration-color: #00b388;
 }
 
@@ -385,17 +415,21 @@ position: relative;
   font-family: sans-serif;
 }
 
-.cajaPrincipal-especiales{
-  padding: 0px 10% 10% 10%;
+.cajaPrincipal-especiales{ 
+  padding: 0px 10% 0% 10%;
   text-align: center;
   background-color: #f9fafb;
+}
+
+.cajaPrincipal-pob{
+  text-align: start;
 }
 
 .title-especiales{
   padding: 3% 8% 1% 8%;
   font-style: italic;
   color: #753bbd;
-  text-decoration: overline;
+  text-decoration: underline;
   text-decoration-color: #00b388;
 }
 
@@ -521,6 +555,10 @@ position: relative;
  }
   .contenedor-foto{
     margin-top: 5%;
+ }
+ .caja-pob{
+    margin-right: 4%;
+    margin-left: 4%;
  }
 }
 
