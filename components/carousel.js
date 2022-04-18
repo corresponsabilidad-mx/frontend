@@ -10,6 +10,7 @@ const PhotoCarousel = () => {
     "/images/carrete/carrete4.jpg",
     "/images/carrete/carrete5.jpg",
     "/images/carrete/carrete6.jpg",
+    //AQUI SE PUEDEN AGREGAR O CAMBIAR LAS RUTAS DE NUEVAS FOTOS DE LA GALERIA DE NINAS Y NINOS
   ];
 
   return (

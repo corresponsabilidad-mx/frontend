@@ -281,15 +281,47 @@ body {
   text-decoration: underline !important;
 }
 /*FORMULARIO*/
+
+.contact{
+  width: 400px;
+  height: 420px;
+  background-color:#753bbd;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px 0 0 10px;
+  margin-bottom: 20px;
+}
+
+.form-inputs{
+  width: 400px;
+  height: 420px;
+  background-color:#FFF;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0 10px 10px 0;
+  margin-bottom: 20px;
+}
+
 .form-container{
-height: 60vh;
+height: 70vh;
 display: flex;
 align-items: center;
 justify-content: center;
 position: relative; 
-
 }
-.form-container::before{  
+
+.photo-form{
+  background-image: url("../public/images/carrete/carrete1.jpg");  
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+/* .form-container::before{  
   content: "";
   background-image: url("../public/images/carrete/carrete1.jpg");
   background-repeat: no-repeat;
@@ -301,7 +333,7 @@ position: relative;
   right: 0px;
   bottom: 0px;
   left: 0px;
-}
+} */
 .input-form{
   width: 350px ;
   margin-bottom: 0.8rem;
@@ -310,7 +342,7 @@ position: relative;
   filter: drop-shadow(0.10rem 0.10rem 0.2rem rgba(0, 0, 0, 0.5));
 }
 .btn-form{
-  width: 350px ;
+  width: 200px ;
   height: 35px;
   background-color: #753bbd;
   color:#fff;

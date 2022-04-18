@@ -4,19 +4,19 @@ const CardGroup = () => {
   const info = [
     {
       title: "Niñas y Niños",
-      href: "/proyectos#niños",
+      href: "/proyectos/#niños",
     },
     {
       title: "Adolescentes",
-      href: "/proyectos#adolescentes",
+      href: "/proyectos/#adolescentes",
     },
     {
       title: "Mujeres",
-      href: "/proyectos#mujeres",
+      href: "/proyectos/#mujeres",
     },
     {
       title: "Instituciones",
-      href: "/proyectos#instituciones",
+      href: "/proyectos/#instituciones",
     },
   ];
 
@@ -29,7 +29,10 @@ const CardGroup = () => {
               <Link href={c.href} passHref>
                 <Card className="card card-drop">
                   <Card.Body className="card-drop primary-color d-flex">
-                    <Card.Title className="card-title">
+                    <Card.Title
+                      className="card-title"
+                      style={{ fontFamily: "Montserrat" }}
+                    >
                       {c.title.toUpperCase()}
                     </Card.Title>
                   </Card.Body>

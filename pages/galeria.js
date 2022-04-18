@@ -17,22 +17,44 @@ export default function Galeria() {
   ];
   return (
     <div className="container">
-      <div className="row mb-3">
-        <h2 className="primary-color bg-transparent mb-2 text-start mt-3 p-2">
+      <div
+        className="row mb-5 p-5"
+        style={{
+          backgroundColor: "lavender",
+          borderRadius: "50px",
+          marginTop: "150px",
+        }}
+      >
+        <h2
+          className="primary-color bg-transparent mb-2 text-start mt-3 p-2"
+          style={{ fontFamily: "Montserrat" }}
+        >
           Niñas y Niños
         </h2>
         <div className="line-deco mb-2"></div>
         <PhotoSection images={images} className="mb-5 bg-light p-5" />
       </div>
-      <div className="row mb-3">
-        <h2 className="primary-color bg-transparent mb-2 text-start mt-3 p-2">
+      <div
+        className="row mb-5 p-5"
+        style={{ backgroundColor: "lavender", borderRadius: "50px" }}
+      >
+        <h2
+          className="primary-color bg-transparent mb-2 text-start mt-3 p-2"
+          style={{ fontFamily: "Montserrat" }}
+        >
           Adolescentes
         </h2>
         <div className="line-deco mb-2"></div>
         <PhotoSection images={images2} />
       </div>
-      <div className="row mb-3">
-        <h2 className="primary-color bg-transparent mb-2 text-start mt-3 p-2">
+      <div
+        className="row mb-5 p-5"
+        style={{ backgroundColor: "lavender", borderRadius: "50px" }}
+      >
+        <h2
+          className="primary-color bg-transparent mb-2 text-start mt-3 p-2"
+          style={{ fontFamily: "Montserrat" }}
+        >
           Mujeres
         </h2>
         <div className="line-deco mb-2"></div>
