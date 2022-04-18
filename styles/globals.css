@@ -291,7 +291,7 @@ position: relative;
 }
 .form-container::before{  
   content: "";
-  background-image: url("../public/images/cards/carousel11.jpg");
+  background-image: url("../public/images/carrete/carrete1.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;

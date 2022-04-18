@@ -4,22 +4,18 @@ const CardGroup = () => {
   const info = [
     {
       title: "Niñas y Niños",
-      src: "/images/cards/carousel15.jpg",
       href: "/proyectos#niños",
     },
     {
       title: "Adolescentes",
-      src: "/images/cards/carousel17.jpg",
       href: "/proyectos#adolescentes",
     },
     {
       title: "Mujeres",
-      src: "/images/cards/carousel1.jpg",
       href: "/proyectos#mujeres",
     },
     {
       title: "Instituciones",
-      src: "/images/cards/carousel11.jpg",
       href: "/proyectos#instituciones",
     },
   ];

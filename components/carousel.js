@@ -4,12 +4,12 @@ import Link from "next/link";
 
 const PhotoCarousel = () => {
   const images = [
-    "/images/carousel/carousel2.jpg",
-    "/images/carousel/carousel4.jpg",
-    "/images/carousel/carousel6.jpg",
-    "/images/carousel/carousel9.jpg",
-    "/images/carousel/carousel8.jpg",
-    "/images/carousel/carousel10.jpg",
+    "/images/carrete/carrete1.jpg",
+    "/images/carrete/carrete2.jpg",
+    "/images/carrete/carrete3.jpg",
+    "/images/carrete/carrete4.jpg",
+    "/images/carrete/carrete5.jpg",
+    "/images/carrete/carrete6.jpg",
   ];
 
   return (
