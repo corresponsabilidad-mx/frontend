@@ -210,16 +210,16 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-left: 5em;
-  margin-right: 5em;
+  margin-left: 2.5em;
+  margin-right: 2.5em;
   padding-top: 0;
-  padding-bottom: 3em;
+  padding-bottom: 4em;
 }
 
 .titulo-alianzas {
   display: flex;
   justify-content: center;
-  margin-top: 2.4em;
+  margin-top: 2.5em;
   text-decoration-line: overline;
   text-decoration-color: #00b388;
 }
@@ -230,6 +230,7 @@ body {
   padding: 0;
   margin-top: 2em;
 }
+
 
 /* FOOTER */
 .programadoras{
@@ -357,12 +358,11 @@ position: relative;
 .cajaPrincipal-objetivos{
   padding: 0px 10% 5% 10%;
   text-align: center;
-  background-color: #f9fafb;
  }
 
 .tab-obj{
   padding: 1% 10% 3% 10%;
-  background-color: #efe6f8;;
+  background-color: #efe6f8;
   text-align: start;
   border: ridge;
 }
@@ -418,7 +418,7 @@ position: relative;
 .cajaPrincipal-especiales{ 
   padding: 0px 10% 0% 10%;
   text-align: center;
-  background-color: #f9fafb;
+  margin-bottom: 5%;
 }
 
 .cajaPrincipal-pob{
@@ -515,12 +515,10 @@ position: relative;
     font-size: 1.2rem !important;
   }
   .div-prin-alianzas {
-    margin-left: 0em;
-    margin-right: 0em;
     padding-bottom: 2em;
   }
   .img-li {
-    margin: 0 16px;
+    margin: 0 25px;
     margin-top: 1em;
   }
   .div-video {
