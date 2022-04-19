@@ -75,9 +75,10 @@ const Form = () => {
                   type="checkbox"
                   name="entry.681712784"
                   className="me-1"
+                  value={"He leído y acepto las políticas de privacidad"}
                 ></input>
-                <label className="fs-6">
-                  He leído y acepto políticas de privacidad
+                <label className="fs-6 label-form">
+                  He leído y acepto las políticas de privacidad
                 </label>
               </div>
               <button type="submit" className="btn-form mt-3">

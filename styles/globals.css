@@ -321,19 +321,6 @@ position: relative;
   background-size: cover;
 }
 
-/* .form-container::before{  
-  content: "";
-  background-image: url("../public/images/carrete/carrete1.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  opacity: 0.25;
-  position: absolute;
-  top: 0px;
-  right: 0px;
-  bottom: 0px;
-  left: 0px;
-} */
 .input-form{
   width: 350px ;
   margin-bottom: 0.8rem;
@@ -341,6 +328,7 @@ position: relative;
   border: transparent;
   filter: drop-shadow(0.10rem 0.10rem 0.2rem rgba(0, 0, 0, 0.5));
 }
+
 .btn-form{
   width: 200px ;
   height: 35px;
@@ -351,10 +339,17 @@ position: relative;
   border: transparent;
   filter: drop-shadow(0.10rem 0.10rem 0.2rem rgba(0, 0, 0, 0.5));
   }
+
   .btn-form:hover{
     background-color:#00b388;
   }
-.checkbox-form{
+
+  .label-form:hover{
+    color: #753bbd;
+    font-weight: 700;
+  }
+
+ .checkbox-form{
   width: 20px ;
   height: 20px;
   background-color: #753bbd;
