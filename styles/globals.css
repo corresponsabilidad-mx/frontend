@@ -76,7 +76,7 @@ body {
   border: none !important;
   
 }
-.card-title {
+.card-home-title {
   color: #fff;
   font-weight: 900;
   font-size: 1.8rem !important;
@@ -283,6 +283,26 @@ body {
 }
 /*FORMULARIO*/
 
+.form-container{
+height: 70vh;
+display: flex;
+align-items: center;
+justify-content: center;
+position: relative; 
+}
+
+.photo-form{
+  background-image: url("../public/images/carrete/carrete1.jpg");  
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.form-contact{
+  display: flex;
+  flex-direction: row;
+}
+
 .contact{
   width: 400px;
   height: 420px;
@@ -307,21 +327,6 @@ body {
   margin-bottom: 20px;
 }
 
-.form-container{
-height: 70vh;
-display: flex;
-align-items: center;
-justify-content: center;
-position: relative; 
-}
-
-.photo-form{
-  background-image: url("../public/images/carrete/carrete1.jpg");  
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
-
 .input-form{
   width: 350px ;
   margin-bottom: 0.8rem;
@@ -329,6 +334,11 @@ position: relative;
   border: transparent;
   filter: drop-shadow(0.10rem 0.10rem 0.2rem rgba(0, 0, 0, 0.5));
 }
+.letra-form{
+  font-size: 1em !important;
+  color: #fff !important;
+  margin-left: 1em;
+  }
 
 .btn-form{
   width: 200px ;
@@ -496,19 +506,49 @@ position: relative;
     margin-top: 15px !important;
   }
 
-  .card-title {
+  .card-home-title {
     font-size: 1.5rem !important;
   }
 }
 
 @media (max-width: 1023px) {
-  .card-title {
+  .card-home-title {
     font-size: 1.2rem !important;
   }
   .card-body {
     padding: 0 !important;
   }
- 
+ .form-contact{
+   display: flex;
+   flex-direction: column-reverse !important;
+ }
+
+ .form-container{
+  height: auto;
+ }
+
+ .form-inputs{
+  width: 270px;
+  height: 420px;
+  border-radius: 10px 10px 0 0;
+  margin-bottom: 0;
+ }
+
+ .input-form{
+  width: 250px ;
+ }
+ .contact{
+  width: 270px;
+  height: 420px;
+   border-radius: 0 0 10px 10px;
+  }
+
+.letra-form{
+font-size: 0.7em !important;
+margin-left: 0.4em;
+}
+
+
 }
 
 @media (max-width: 768px) {
@@ -538,7 +578,7 @@ position: relative;
   .text-white {
     font-size: 14px;
   }
-  .card-title {
+  .card-home-title {
     font-size: 1.2rem !important;
   }
   .div-prin-alianzas {
@@ -604,7 +644,7 @@ position: relative;
 }
 
 @media (max-width: 480px) {
-  .card-title {
+  .card-home-title {
     font-size: 0.8rem !important;
   }
   .carousel-title{

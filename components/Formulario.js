@@ -12,13 +12,13 @@ const Form = () => {
           ¡Contáctanos!
         </h3>
         <h5>En Corresponsabilidad Social Mexicana queremos escucharte.</h5>
-        <div className="d-flex flex-row mt-3 mb-5">
+        <div className="form-contact">
           <div className="contact align-items-start">
-            <p className="ms-4 letra-footer">
+            <p className="letra-form">
               <BsTelephoneFill className="footer-icono me-1" />
               <span>Teléfono</span>
             </p>
-            <p className="letra-footer ms-4">
+            <p className="letra-form">
               <BsFillEnvelopeFill className="footer-icono me-1" />
               <span>contacto@corresponsabilidadsocial.org.mx</span>
             </p>

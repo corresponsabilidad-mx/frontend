@@ -30,7 +30,7 @@ const CardGroup = () => {
                 <Card className="card card-drop">
                   <Card.Body className="card-drop primary-color d-flex">
                     <Card.Title
-                      className="card-title"
+                      className="card-home-title"
                       style={{ fontFamily: "Montserrat" }}
                     >
                       {c.title.toUpperCase()}
