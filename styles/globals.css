@@ -72,6 +72,13 @@ body {
   margin-top: 0 !important;
   border-radius: 50% 0 50% 50% !important
 }
+
+.card-drop:hover{
+  border-radius:  0  50% 50% 50% !important;
+  background-color: #00b388;  
+  transition: 0.2s;
+}
+
 .card {
   border: none !important;
   
