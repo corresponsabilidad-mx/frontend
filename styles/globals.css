@@ -110,13 +110,17 @@ body {
 }
 
 .icono-cifra{
-  font-size: 1.7em;
+  font-size: 1.5em;
   margin-bottom: 0.4em;
 }
 
 .num-letra-cifra-p{
-  font-size: 1em;
+  font-size: 0.93em;
   font-weight: 600;
+}
+
+.num-letra-cifra{
+  font-size: 0.93em;
 }
 
 .descrip-cifra{
@@ -129,6 +133,7 @@ body {
   display: flex;
   justify-content: center;
   margin-bottom: 1.5em;
+  font-weight: 500;
 }
 
 .contenedor-cifras{
@@ -163,8 +168,9 @@ body {
 }
 
 .p-carta{
-  font-family: 'Tillana', cursive;
+  font-family: 'Tillana', cursive !important;
 }
+
 
 /* VIDEO */
 
@@ -175,7 +181,6 @@ body {
   justify-content: center;
   text-decoration-line: overline;
   text-decoration-color: #00b388;
-  flex-wrap: wrap;
 }
 
 .video-icono {
@@ -210,6 +215,7 @@ body {
 
 .video-h4 {
   padding-top: 0.5em;
+  font-weight: 600;
 }
 
 /* ALIANZAS */
@@ -231,6 +237,7 @@ body {
   margin-top: 2.5em;
   text-decoration-line: overline;
   text-decoration-color: #00b388;
+  font-weight: 600;
 }
 
 .img-li {
@@ -275,6 +282,7 @@ body {
   position: relative;
   width: 100%;
   bottom: 0;
+  font-size: 14px;
 }
 
 .footer-icono {
@@ -289,6 +297,10 @@ body {
 
 .footer-cita {
   text-decoration: underline !important;
+}
+
+.text-prog{
+  font-size: 12px !important;
 }
 
 /* FORMULARIO */
@@ -417,7 +429,7 @@ position: relative;
 }
 
 .title-proyectosPob{
-  padding: 8% 8% 4% 8%;
+  padding: 5% 8% 2% 8%;
   font-style: italic;
   color: #753bbd;
   text-decoration: underline;
@@ -429,6 +441,7 @@ position: relative;
   color: #008364;;
   padding: 3% 0 3% 0;
   text-align: center !important;
+  font-size: 1.4em;
 }
 
 .box-kids{
@@ -438,21 +451,22 @@ position: relative;
 .caja-pob{
   border: 1px solid #00b388;
   border-radius: 3%;
-  margin-bottom: 6%;
-  padding: 0 2% 0 2%;
+  margin-bottom: 5%;
+  padding: 0 3% 2% 3%;
   background-color: azure;
-  margin-right: 9%;
-  margin-left: 9%;
+  margin-right: 10%;
+  margin-left: 10%;
 }
 
 .title-proyectos{
-  padding-top: 5%;
+  padding-top: 4%;
   color: #592e8f;
   text-align: center !important;
+  font-size: 2em;
 }
 
 .title-ejes{
-  padding: 5% 8% 4% 8%;
+  padding: 3% 8% 3% 8%;
   font-style: italic;
   color: #753bbd;
   text-decoration: underline;
@@ -475,7 +489,7 @@ position: relative;
 }
 
 .title-especiales{
-  padding: 3% 8% 1% 8%;
+  padding: 2% 8% 1% 8%;
   font-style: italic;
   color: #753bbd;
   text-decoration: underline;
@@ -483,7 +497,8 @@ position: relative;
 }
 
 .text-proyectos{
-  color: #7018afdc;
+  color: #7037a9;
+  font-weight: 600;
 }
 
 .contenedor-card{
@@ -500,6 +515,11 @@ position: relative;
   text-align: initial;
   padding: 0px 5px 5px 5px;
  }
+
+ .nav-tabs{
+  font-size: 15px;
+ }
+
 
  /* PAGE CONOCENOS */
 
@@ -664,6 +684,17 @@ position: relative;
     margin-right: 4%;
     margin-left: 4%;
  }
+ .titulo-cifra{
+  font-size: 1.2em;
+ }
+
+ .num-letra-cifra-p,
+ .num-letra-cifra{
+    font-size: 15px;
+  }
+  .div-video{
+    flex-wrap: wrap;
+  }
 }
 
 @media (max-width: 767px) {
@@ -672,7 +703,7 @@ position: relative;
     display: inline-flex !important;
   }
   .title-ejes {
-    margin: 9% 8% 6% 8%;
+    margin: 9% 2% 6% 2%;
  }
   .contenedor-foto{
     text-align: center;
