@@ -302,7 +302,7 @@ position: relative;
 }
 
 .photo-form{
-  background-image: url("../public/images/carrete/carrete1.jpg");  
+  background-image: url("/images/carrete/carrete1.jpg");  
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
