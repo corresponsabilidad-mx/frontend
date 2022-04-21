@@ -11,6 +11,7 @@ body {
 
 * {
   box-sizing: border-box;
+  font-family: Montserrat;
 }
 
 .primary-color {
@@ -31,6 +32,7 @@ body {
 .navbar-style{
   box-shadow: 0px 0px 5px #00b388;  
 }
+
 .a-navbar {  
   border-radius: 25px;
   padding: 25px;
@@ -60,6 +62,7 @@ body {
 }
 
 /* CARD */
+
 .card-drop{
   border: none !important;
   width: 250px !important;
@@ -72,6 +75,13 @@ body {
   margin-top: 0 !important;
   border-radius: 50% 0 50% 50% !important
 }
+
+.card-drop:hover{
+  border-radius:  0  50% 50% 50% !important;
+  background-color: #00b388;  
+  transition: 0.2s;
+}
+
 .card {
   border: none !important;
   
@@ -86,7 +96,6 @@ body {
 .card-body{
   padding: 0 !important;  
 }
-
 
 /* CARTA */
 
@@ -231,8 +240,8 @@ body {
   margin-top: 2em;
 }
 
-
 /* FOOTER */
+
 .programadoras{
   background: #452d63;
 }
@@ -281,7 +290,8 @@ body {
 .footer-cita {
   text-decoration: underline !important;
 }
-/*FORMULARIO*/
+
+/* FORMULARIO */
 
 .form-container{
 height: 70vh;
@@ -292,7 +302,7 @@ position: relative;
 }
 
 .photo-form{
-  background-image: url("../public/images/carrete/carrete1.jpg");  
+  background-image: url("/images/carrete/carrete1.jpg");  
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -334,6 +344,7 @@ position: relative;
   border: transparent;
   filter: drop-shadow(0.10rem 0.10rem 0.2rem rgba(0, 0, 0, 0.5));
 }
+
 .letra-form{
   font-size: 1em !important;
   color: #fff !important;
@@ -370,7 +381,8 @@ position: relative;
   border: transparent;
   filter: drop-shadow(0.05rem 0.05rem 0.1rem rgba(0, 0, 0, 0.5));
 }
-/*PHOTO GALLERY*/
+
+/* PHOTO GALLERY */
 
 .gallery-btn {
   width: 150px !important;
@@ -390,7 +402,7 @@ position: relative;
   right: 50% !important;  
 }
 
-/*PÁGINA PROYECTO*/
+/* PAGE PROYECTO */
 
 .cajaPrincipal-objetivos{
   padding: 0px 10% 5% 10%;
@@ -489,6 +501,25 @@ position: relative;
   padding: 0px 5px 5px 5px;
  }
 
+ /* PAGE CONOCENOS */
+
+ .line-deco {  
+  height: 2px;  
+  background-color: #00b388;
+}
+
+.btn-equipo{
+  background-color: #753bbd !important;
+  font-size: 1.5rem !important;
+  font-weight: bold;
+  color: white !important;
+}
+
+.btn-equipo:hover{
+  background-color: #00b388 !important;
+}
+
+
 /* MEDIA QUERIES */
 
 @media screen and (min-width: 1025px) and (max-width: 2500px) {
@@ -543,12 +574,20 @@ position: relative;
    border-radius: 0 0 10px 10px;
   }
 
-.letra-form{
-font-size: 0.7em !important;
-margin-left: 0.4em;
+  .letra-form{
+  font-size: 0.7em !important;
+  margin-left: 0.4em;
+  }
 }
 
-
+@media (max-width: 992px) {
+  .a-navbar {   
+    background-color: transparent;
+  }
+  .a-navbar:hover {
+    color:#00b388!important;
+    background-color: transparent;
+  }  
 }
 
 @media (max-width: 768px) {
@@ -664,29 +703,5 @@ margin-left: 0.4em;
   }
 }
 
-.line-deco {  
-  height: 2px;  
-  background-color: #00b388;
-}
 
-@media (max-width: 992px) {
-  .a-navbar {   
-    background-color: transparent;
-  }
-  .a-navbar:hover {
-    color:#00b388!important;
-    background-color: transparent;
-  }  
-}
-
-.btn-equipo{
-  background-color: #753bbd !important;
-  font-size: 1.5rem !important;
-  font-weight: bold;
-  color: white !important;
-}
-
-.btn-equipo:hover{
-  background-color: #00b388 !important;
-}
 
