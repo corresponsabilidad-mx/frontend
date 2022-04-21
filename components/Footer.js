@@ -43,13 +43,13 @@ const Footer= () => {
             <div className="container">
                 <div className="row">
                     <div className="md-contacto col-12 col-md-4 linkedin-center">
-                        <p className="p-linkedin"><BsLinkedin className="prog-icon" /><Link href="https://www.linkedin.com/in/mariana-deleau"><a className= "text-white" target="_blank">Mariana Deleau</a></Link></p>
+                        <p className="p-linkedin"><BsLinkedin className="prog-icon" /><Link href="https://www.linkedin.com/in/mariana-deleau"><a className= "text-white text-prog" target="_blank">Mariana Deleau</a></Link></p>
                     </div>
                     <div className="md-contacto col-12 col-md-4 linkedin-center">
-                        <p className="p-linkedin"><BsLinkedin className="prog-icon" /><Link href="https://www.linkedin.com/in/marina-falcon"><a className= "text-white" target="_blank">Marina Falcón</a></Link></p>
+                        <p className="p-linkedin"><BsLinkedin className="prog-icon" /><Link href="https://www.linkedin.com/in/marina-falcon"><a className= "text-white text-prog" target="_blank">Marina Falcón</a></Link></p>
                     </div>
                     <div className="md-contacto col-12 col-md-4 linkedin-center">
-                        <p className="p-linkedin"><BsLinkedin className="prog-icon" /><Link href="https://www.linkedin.com/in/silvina-n-s%C3%A1nchez"><a className= "text-white" target="_blank">Silvina Sánchez</a></Link></p>
+                        <p className="p-linkedin"><BsLinkedin className="prog-icon" /><Link href="https://www.linkedin.com/in/silvina-n-s%C3%A1nchez"><a className= "text-white text-prog" target="_blank">Silvina Sánchez</a></Link></p>
                     </div>
                 </div>
             </div>
