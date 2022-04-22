@@ -1,5 +1,6 @@
 import { BsPinAngle } from "react-icons/bs";
 import { BsCheckCircle } from "react-icons/bs";
+import { BsFillDropletFill } from "react-icons/bs";
 
 function ProyectosPob() {
   return (
@@ -8,7 +9,7 @@ function ProyectosPob() {
       <h1 className="title-proyectos">Nuestros objetivos y proyectos</h1>
           <h3 className="title-proyectosPob"><BsPinAngle/> Proyectos</h3>
           <div className="caja-pob box-kids" id="niños">
-              <h3 className="title-pob">NIÑAS Y NIÑOS</h3>
+              <h3 className="title-pob"><BsFillDropletFill/> NIÑAS Y NIÑOS</h3>
               <div>
               <p><BsCheckCircle /> Identificación local, nacional e internacional de causas y efectos de la violencia en niñas y niños.</p>
               <p><BsCheckCircle /> Valoración y actualización de protocolos de atención a la violencia a niñas y niños.</p>
@@ -23,7 +24,7 @@ function ProyectosPob() {
           </div>
 
           <div className="caja-pob" id="adolescentes">
-              <h3 className="title-pob">ADOLESCENTES</h3>
+              <h3 className="title-pob"><BsFillDropletFill/> ADOLESCENTES</h3>
               <p><BsCheckCircle /> Identificación local, nacional e internacional de causas y efectos de la violencia en adolescentes.</p>
               <p><BsCheckCircle /> Valoración y actualización de protocolos de atención a la violencia en y contra adolescentes 
               Orientación, incidencia, diseño y evaluación de políticas públicas de la agenda de adolescencia.</p>
@@ -35,7 +36,7 @@ function ProyectosPob() {
           </div>
 
           <div className="caja-pob" id="mujeres">
-              <h3 className="title-pob">MUJERES</h3>
+              <h3 className="title-pob"><BsFillDropletFill/> MUJERES</h3>
               <p><BsCheckCircle /> Identificación local, nacional e internacional de factores e indicadores de violencia contra mujeres, mujeres adolescentes y niñas.</p>
               <p><BsCheckCircle /> Valoración y actualización de protocolos de atención a la violencia a mujeres, mujeres adolescentes y niñas.</p>
               <p><BsCheckCircle /> Orientación, incidencia, diseño y evaluación de políticas públicas de violencia contra las mujeres y género.</p>
@@ -45,7 +46,7 @@ function ProyectosPob() {
           </div>
 
           <div className="caja-pob" id="instituciones">
-              <h3 className="title-pob">INSTITUCIONES</h3>
+              <h3 className="title-pob"><BsFillDropletFill/> INSTITUCIONES</h3>
               <p><BsCheckCircle /> Diagnósticos georreferenciados en desigualdad y prevención de violencia contra niñas, niños, adolescentes, mujeres y población en contexto de institucionalización.</p>
               <p><BsCheckCircle /> Laboratorio de Políticas Públicas: Orientación, incidencia, diseño y evaluación.</p>
               <p><BsCheckCircle /> Instrumentación de proyectos de planeación estratégica para organizaciones de sociedad civil e instituciones.</p>
