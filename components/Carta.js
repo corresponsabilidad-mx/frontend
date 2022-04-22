@@ -52,8 +52,7 @@ const Carta = () => {
 
                         <p className="p-carta">Atentamente,</p>
 
-                        <p><b className="p-carta">Rosa Martha Loría San Martín
-                        Fundadora de Corresponsabilidad Social Mexicana A.C.</b></p>
+                        <p><b className="p-carta">Rosa Martha Loría San Martín</b></p>
                 </div>
                 </div>
             </div>
