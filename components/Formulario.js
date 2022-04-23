@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { BsFillEnvelopeFill } from "react-icons/bs";
 import { BsTelephoneFill } from "react-icons/bs";
 
@@ -11,7 +12,9 @@ const Form = () => {
         <h3 className="primary-color bg-transparent mb-1 text-center mt-5 p-2">
           ¡Contáctanos!
         </h3>
-        <h5>En Corresponsabilidad Social Mexicana queremos escucharte.</h5>
+        <h5 className="text-center">
+          En Corresponsabilidad Social Mexicana queremos escucharte.
+        </h5>
         <div className="form-contact">
           <div className="contact align-items-start">
             <p className="letra-form">
@@ -78,7 +81,9 @@ const Form = () => {
                   value={"He leído y acepto las políticas de privacidad"}
                 ></input>
                 <label className="fs-6 label-form">
-                  He leído y acepto las políticas de privacidad
+                  <Link href="/legales" passHref>
+                    <a>He leído y acepto las políticas de privacidad</a>
+                  </Link>
                 </label>
               </div>
               <button type="submit" className="btn-form mt-3">
