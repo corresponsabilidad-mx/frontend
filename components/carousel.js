@@ -27,16 +27,21 @@ const PhotoCarousel = () => {
             layout="responsive"
           />
           <Carousel.Caption>
-            <h2 className="carousel-title">¿Quiénes somos?</h2>
-            <h5 className="carousel-text">
-              Correponsabilidad Social Mexicana, un camino a la prevención y la
-              igualdad
-            </h5>
-            <Button className="mt-md-3 mb-3 fs-6 btn-light btn-sm btn-carousel">
-              <Link href="/conocenos">
-                <a className="text-decoration-none text-dark ">CONOCENOS</a>
-              </Link>
-            </Button>
+            <div className="carousel-overlay">
+              <h2 className="carousel-title">¿Quiénes somos?</h2>
+              <h5 className="carousel-text">
+                Correponsabilidad Social Mexicana, un camino a la prevención y
+                la igualdad
+              </h5>
+
+              <Button className="mt-md-3 mb-3 fs-6 bg-light btn-sm btn-carousel">
+                <Link href="/conocenos">
+                  <a className="text-decoration-none btn-carousel ">
+                    CONÓCENOS
+                  </a>
+                </Link>
+              </Button>
+            </div>
           </Carousel.Caption>
         </Carousel.Item>
       ))}

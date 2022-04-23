@@ -28,7 +28,7 @@ const CardGroup = () => {
             <Col className="card-drop d-flex justify-content-center" key={idx}>
               <Link href={c.href} passHref>
                 <Card className="card card-drop">
-                  <Card.Body className="card-drop primary-color d-flex">
+                  <Card.Body className="card-drop secondary-color d-flex">
                     <Card.Title
                       className="card-home-title"
                       style={{ fontFamily: "Montserrat" }}
