@@ -11,7 +11,7 @@ function ProyectosEspeciales() {
         <div className="cajaPrincipal-especiales">
             <h3 className="title-especiales"><BsStar/> Proyectos Especiales:</h3>
 
-            <div className="row row-cols-1 row-cols-md-3 g-4 mt-4 pb-4 contenedor-card">
+            <div className="row row-cols-1 row-cols-md-3 g-4 mt-4 pb-4 contenedor-tarjeta">
                 <div className="col">
                     <div className="card h-100">
                         <div>

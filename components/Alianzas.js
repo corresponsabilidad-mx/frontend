@@ -29,6 +29,7 @@ const Alianzas= () => {
             {imgAlianzas.map((imgAlianza, index) => ( 
 
                 <li className="img-li" key={index}>
+                    {/* eslint-disable-next-line @next/next/no-img-element */}
                     <img
                     className="pb-2 ml-5 mr-5 img-alianzas"
                     src={imgAlianza}
