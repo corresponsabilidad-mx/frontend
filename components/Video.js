@@ -21,7 +21,6 @@ const Video = () => {
               <button className="boton-video"><a className="video-text" href="https://www.instagram.com/corresponsabilidadsocialmx" rel="noreferrer" target="_blank"><BsInstagram/> Instagram</a></button>
               <br />
               <button className="boton-video"><a className="video-text" href="#" rel="noreferrer" target="_blank"><BsCart4/> Productos solidarios</a></button>
-  
           </div>
       </div>
       </>
