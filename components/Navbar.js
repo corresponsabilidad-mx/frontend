@@ -1,10 +1,6 @@
 import { Navbar, Nav, Image } from "react-bootstrap";
 import Link from "next/link";
-{
-  /* <Nav.Item>
-<Nav.Link onClick={() => router.push("/")}>INICIO</Nav.Link>
-</Nav.Item> */
-}
+
 export default function NavBar() {
   return (
     <Navbar
