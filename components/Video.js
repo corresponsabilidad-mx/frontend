@@ -1,6 +1,7 @@
 import { BsPencilSquare } from "react-icons/bs";
 import { BsFacebook } from "react-icons/bs";
 import { BsInstagram } from "react-icons/bs";
+import { BsYoutube } from "react-icons/bs";
 import { BsCart4 } from "react-icons/bs";
 
 
@@ -20,7 +21,8 @@ const Video = () => {
               <button className="boton-video"><a className="video-text" href="https://www.facebook.com/csm.org.mx" rel="noreferrer" target="_blank"><BsFacebook/> Facebook</a></button>
               <button className="boton-video"><a className="video-text" href="https://www.instagram.com/corresponsabilidadsocialmx" rel="noreferrer" target="_blank"><BsInstagram/> Instagram</a></button>
               <br />
-              <button className="boton-video"><a className="video-text" href="#" rel="noreferrer" target="_blank"><BsCart4/> Productos solidarios</a></button>
+              <button className="boton-video"><a className="video-text" href="https://www.facebook.com/CSM-Productos-Solidarios-108644658499289" rel="noreferrer" target="_blank"><BsCart4/> Productos solidarios</a></button>
+              <button className="boton-video"><a className="video-text" href="https://www.youtube.com/channel/UCh0vbe17E2RDE_FOVrSmf0w" rel="noreferrer" target="_blank"><BsYoutube/> Youtube</a></button>
           </div>
       </div>
       </>

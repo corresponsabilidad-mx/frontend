@@ -170,7 +170,7 @@ body {
 .foto-rosa{
   justify-content: center;
   border-radius: 10%;
-  opacity: 0.8;
+  opacity: 0.85; 
 }
 
 .espacio{
@@ -200,7 +200,7 @@ body {
 .boton-video {
   background-color: transparent;
   border: 0;
-  margin: 1em 1em 0em 0px;
+  margin: 0.6em 0.6em 0em 0px;
   padding-bottom: 0.2em;
 }
 
@@ -526,7 +526,7 @@ position: relative;
 }
 
 .tarj-espec{
-  background-color: #f9fafb;
+  background-color: #e9ecef69;
   box-shadow: 4px 4px 4px 0px #910eac63;
  }
 
