@@ -8,8 +8,8 @@ export default function Organigrama () {
 		<div className="line-deco mb-2"></div>
 		<Image
                         className="mb-2 p-5"
-                        src="/images/organigrama/organigrama.png"
-                        width={1200}
+                        src="/images/organigrama/organigramaCSM.png"
+                        width={1500}
                         height={800}
                         alt="organigrama"
                         ></Image>			
