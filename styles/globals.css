@@ -109,7 +109,7 @@ body {
 /* CARTA */
 
 .div-cifra{
-  padding: 0 2.3em 0px 2.3em;
+  padding: 0 2em 0px 2em;
 }
 
 .caja-cifra{
@@ -170,6 +170,7 @@ body {
 .foto-rosa{
   justify-content: center;
   border-radius: 10%;
+  opacity: 0.8;
 }
 
 .espacio{
@@ -310,6 +311,12 @@ body {
 
 .text-prog{
   font-size: 12px !important;
+}
+
+.fb,
+.ins,
+.yout{
+  margin-bottom: 0.54em;
 }
 
 /* FORMULARIO */
@@ -513,14 +520,14 @@ position: relative;
   font-weight: 600;
 }
 
-.contenedor-card{
+.contenedor-tarjeta{
   display: inline-flex;
-  background-color: #81cacc70;
+  background-color: #00b38824;
 }
 
 .tarj-espec{
-  background-color: whitesmoke;
-  box-shadow: 4px 4px 4px 0px #ac0e9973;
+  background-color: #f9fafb;
+  box-shadow: 4px 4px 4px 0px #910eac63;
  }
 
  .card-espec{
@@ -699,7 +706,6 @@ position: relative;
     align-items: center;
     flex-direction: column;
   }
-
   .p-linkedin{
     justify-content: flex-start;
     font-family: ui-monospace;
@@ -717,20 +723,22 @@ position: relative;
   .contenedor-foto{
     margin-top: 5%;
  }
- .caja-pob{
+  .caja-pob{
     margin-right: 4%;
     margin-left: 4%;
- }
- .titulo-cifra{
-  font-size: 1.2em;
- }
-
- .num-letra-cifra-p,
- .num-letra-cifra{
+  }
+  .titulo-cifra{
+    font-size: 1.2em;
+  }
+  .num-letra-cifra-p,
+  .num-letra-cifra{
     font-size: 15px;
   }
   .div-video{
     flex-wrap: wrap;
+  }
+  .div-cifra{
+    padding: 0;
   }
 }
 
