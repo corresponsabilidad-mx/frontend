@@ -1,4 +1,4 @@
-import { BiArrowBack } from "react-icons/all";
+import { BiArrowBack } from "react-icons/bi";
 import { useRouter } from "next/router";
 import { Button } from "react-bootstrap";
 
