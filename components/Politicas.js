@@ -1,6 +1,5 @@
 import { BiArrowBack } from "react-icons/bi";
 import { useRouter } from "next/router";
-import { Button } from "react-bootstrap";
 
 const Politicas = () => {
   const router = useRouter();
