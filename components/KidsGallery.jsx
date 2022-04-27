@@ -2,7 +2,7 @@ import Image from "next/image";
 import React, { useState, useCallback } from "react";
 import ImageViewer from "react-simple-image-viewer";
 
-const PhotoSection = ({ images }) => {
+const PhotoSection = ({ images, src }) => {
   const [currentImage, setCurrentImage] = useState(0);
   const [isViewerOpen, setIsViewerOpen] = useState(false);
 
@@ -19,16 +19,17 @@ const PhotoSection = ({ images }) => {
   return (
     <>
       <div className="photo-container">
-        {images.map((src, index) => (
+        {images.map((image, index) => (
           // eslint-disable-next-line @next/next/no-img-element
           <img
             className="gallery-image"
-            src={src}
+            src={image.src}
             onClick={() => openImageViewer(index)}
             height="200"
             key={index}
             style={{ margin: "5px" }}
             alt=""
+            title={image.title}
           />
         ))}
 
