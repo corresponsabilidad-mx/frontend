@@ -102,9 +102,22 @@ export default function Galeria() {
       },
     ],
     Mujeres: [
-      "/images/fotosXpoblacion/Fotos por población/Niñas Niños/Niñasyniños1.jpg",
-      "Portada",
-      ,
+      {
+        src: "/images/fotosXpoblacion/Fotos por población/Mujeres/Mujeres1.jpg",
+        title: "Capacitación",
+      },
+      {
+        src: "/images/fotosXpoblacion/Fotos por población/Mujeres/Mujeres2.jpg",
+        title: "Comedores Comunitarios",
+      },
+      {
+        src: "/images/fotosXpoblacion/Fotos por población/Mujeres/Mujeres3.jpg",
+        title: "Mujeres Emprendedoras",
+      },
+      {
+        src: "/images/fotosXpoblacion/Fotos por población/Mujeres/Mujeres4.jpg",
+        title: "Niñas Oaxaca",
+      },
     ],
     Adolescentes: [
       {
@@ -138,6 +151,144 @@ export default function Galeria() {
       {
         src: "/images/fotosXpoblacion/Fotos por población/Adolescentes/adolescentes8.jpg",
         title: "Secundaria técnica 97.",
+      },
+    ],
+    Instituciones: [
+      {
+        src: "/images/fotosXpoblacion/Fotos por población/Instituciones/Instituciones1.jpg",
+        title: "ABC Pacto Primera Infancia",
+      },
+    ],
+    Instituciones: [
+      {
+        src: "/images/fotosXpoblacion/Fotos por población/Instituciones/Instituciones1.jpg",
+        title: "ABC Pacto Primera Infancia",
+      },
+      {
+        src: "/images/fotosXpoblacion/Fotos por población/Instituciones/Instituciones2.jpg",
+        title: "Agenda 2030",
+      },
+      {
+        src: "/images/fotosXpoblacion/Fotos por población/Instituciones/Instituciones3.jpg",
+        title: "Bachilleres",
+      },
+      {
+        src: "/images/fotosXpoblacion/Fotos por población/Instituciones/Instituciones4.jpg",
+        title: "Cámara de Comercio",
+      },
+      {
+        src: "/images/fotosXpoblacion/Fotos por población/Instituciones/Instituciones5.jpg",
+        title: "CJM Hidalgo",
+      },
+      {
+        src: "/images/fotosXpoblacion/Fotos por población/Instituciones/Instituciones6.jpg",
+        title: "CJM Mujeres",
+      },
+      {
+        src: "/images/fotosXpoblacion/Fotos por población/Instituciones/Instituciones7.jpg",
+        title: "COMPREVNNA",
+      },
+      {
+        src: "/images/fotosXpoblacion/Fotos por población/Instituciones/Instituciones8.jpg",
+        title: "Congreso CDMX",
+      },
+      {
+        src: "/images/fotosXpoblacion/Fotos por población/Instituciones/Instituciones9.jpg",
+        title: "Congreso",
+      },
+      {
+        src: "/images/fotosXpoblacion/Fotos por población/Instituciones/Instituciones10.jpg",
+        title: "Delegación Cuahutemoc",
+      },
+      {
+        src: "/images/fotosXpoblacion/Fotos por población/Instituciones/Instituciones11.jpg",
+        title: "DIF Veracruz",
+      },
+      {
+        src: "/images/fotosXpoblacion/Fotos por población/Instituciones/Instituciones12.jpg",
+        title: "Instituciones",
+      },
+      {
+        src: "/images/fotosXpoblacion/Fotos por población/Instituciones/Instituciones13.jpg",
+        title: "INJUVE",
+      },
+      {
+        src: "/images/fotosXpoblacion/Fotos por población/Instituciones/Instituciones14.jpg",
+        title: "IQM Embarazo Adolescente",
+      },
+      {
+        src: "/images/fotosXpoblacion/Fotos por población/Instituciones/Instituciones15.jpg",
+        title: "IQM Qro",
+      },
+      {
+        src: "/images/fotosXpoblacion/Fotos por población/Instituciones/Instituciones16.jpg",
+        title: "IQM",
+      },
+      {
+        src: "/images/fotosXpoblacion/Fotos por población/Instituciones/Instituciones17.jpg",
+        title: "Observatorio Ciudadano CDMX",
+      },
+      {
+        src: "/images/fotosXpoblacion/Fotos por población/Instituciones/Instituciones18.jpg",
+        title: "OMS _ OPS",
+      },
+      {
+        src: "/images/fotosXpoblacion/Fotos por población/Instituciones/Instituciones19.jpg",
+        title: "Instituciones",
+      },
+      {
+        src: "/images/fotosXpoblacion/Fotos por población/Instituciones/Instituciones20.jpg",
+        title: "REDLAMYC Colombia",
+      },
+      {
+        src: "/images/fotosXpoblacion/Fotos por población/Instituciones/Instituciones21.jpg",
+        title: "Secretaría del Trabajo",
+      },
+      {
+        src: "/images/fotosXpoblacion/Fotos por población/Instituciones/Instituciones22.jpg",
+        title: "SIPINNA",
+      },
+      {
+        src: "/images/fotosXpoblacion/Fotos por población/Instituciones/Instituciones20.jpg",
+        title: "USAID",
+      },
+    ],
+    Equipo: [
+      {
+        src: "/images/fotosXpoblacion/Fotos por población/Equipo/Equipo1.jpg",
+        title: "Contruyendo ideas",
+      },
+      {
+        src: "/images/fotosXpoblacion/Fotos por población/Equipo/Equipo2.jpg",
+        title: "Trabajo de campo",
+      },
+      {
+        src: "/images/fotosXpoblacion/Fotos por población/Equipo/Equipo3.jpg",
+        title: "Facilitador",
+      },
+      {
+        src: "/images/fotosXpoblacion/Fotos por población/Equipo/Equipo4.jpg",
+        title: "Preescolar Ignacio Ramírez Facilitador",
+      },
+      {
+        src: "/images/fotosXpoblacion/Fotos por población/Equipo/Equipo5.jpg",
+        title: "Trabajo de campo mujeres",
+      },
+      {
+        src: "/images/fotosXpoblacion/Fotos por población/Equipo/Equipo6.jpg",
+        title: "Foro Agenda 2030",
+      },
+      {
+        src: "/images/fotosXpoblacion/Fotos por población/Equipo/Equipo7.jpg",
+        title: "Primaria Benito Juárez",
+      },
+      {
+        src: "/images/fotosXpoblacion/Fotos por población/Equipo/Equipo8.jpg",
+        title: "Facilitadores Benito Juárez",
+      },
+      {
+        src: "/images/fotosXpoblacion/Fotos por población/Equipo/Equipo9.jpg",
+        title: "Preescolar Carmen Ahuja",
       },
     ],
   };
@@ -188,6 +339,32 @@ export default function Galeria() {
         </h2>
         <div className="line-deco mb-2"></div>
         <PhotoSection images={images.Mujeres} title="title" />
+      </div>
+      <div
+        className="row mb-5 p-5"
+        style={{ backgroundColor: "lavender", borderRadius: "50px" }}
+      >
+        <h2
+          className="primary-color bg-transparent mb-2 text-start mt-3 p-2"
+          style={{ fontFamily: "Montserrat" }}
+        >
+          Instituciones
+        </h2>
+        <div className="line-deco mb-2"></div>
+        <PhotoSection images={images.Instituciones} title="title" />
+      </div>
+      <div
+        className="row mb-5 p-5"
+        style={{ backgroundColor: "lavender", borderRadius: "50px" }}
+      >
+        <h2
+          className="primary-color bg-transparent mb-2 text-start mt-3 p-2"
+          style={{ fontFamily: "Montserrat" }}
+        >
+          Equipo de Trabajo
+        </h2>
+        <div className="line-deco mb-2"></div>
+        <PhotoSection images={images.Equipo} title="title" />
       </div>
     </div>
   );

@@ -2,7 +2,7 @@ import Image from "next/image";
 import React, { useState, useCallback } from "react";
 import ImageViewer from "react-simple-image-viewer";
 
-const PhotoSection = ({ images, src }) => {
+const PhotoSection = ({ images }) => {
   const [currentImage, setCurrentImage] = useState(0);
   const [isViewerOpen, setIsViewerOpen] = useState(false);
 
@@ -28,23 +28,25 @@ const PhotoSection = ({ images, src }) => {
             height="200"
             key={index}
             style={{ margin: "5px" }}
-            alt=""
+            alt={image.title}
             title={image.title}
           />
         ))}
 
         {isViewerOpen && (
           <ImageViewer
-            src={images}
+            src={images.map((image) => image.src)}
             currentIndex={currentImage}
             onClose={closeImageViewer}
             disableScroll={false}
             backgroundStyle={{
-              backgroundColor: "rgba(0,0,0,0.9)",
+              backgroundColor: "rgba(0,0,0,0.8)",
+              width: "100%",
+              height: "100%",
+              alignSelf: "center",
+              marginTop: "10vh",
             }}
             closeOnClickOutside={true}
-            style={{ marginTop: "50px" }}
-            className="margin-top-100"
           />
         )}
       </div>
