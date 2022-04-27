@@ -81,7 +81,10 @@ const Form = () => {
                   value={"He leído y acepto las políticas de privacidad"}
                 ></input>
                 <label className="fs-6 label-form">
-                  <Link href="/legales" passHref>
+                  <Link
+                    href="https://drive.google.com/file/d/1ZhY_t2xqoqshxSGbSO2sWbtWVVnu1MbK/view?usp=sharing"
+                    passHref
+                  >
                     <a>He leído y acepto las políticas de privacidad</a>
                   </Link>
                 </label>
