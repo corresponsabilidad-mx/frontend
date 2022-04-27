@@ -427,9 +427,19 @@ position: relative;
 }
 
 .styles-module_close__2I1sI {
-  top: 90% !important;
-  right: 50% !important;  
+  top: 5% ;
+  left: 95%;
+  right: 50% ;  
 }
+
+/* .accordion-bg{
+  background-color: lavender;
+  padding:  0 10px 0 10px !important;
+} */
+
+/* .photo-container{
+  padding: 0 10px 0 10px;
+} */
 
 /* PAGE PROYECTO */
 

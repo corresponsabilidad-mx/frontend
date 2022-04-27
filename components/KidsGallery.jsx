@@ -19,31 +19,34 @@ const PhotoSection = ({ images }) => {
   return (
     <>
       <div className="photo-container">
-        {images.map((src, index) => (
+        {images.map((image, index) => (
           // eslint-disable-next-line @next/next/no-img-element
           <img
             className="gallery-image"
-            src={src}
+            src={image.src}
             onClick={() => openImageViewer(index)}
             height="200"
             key={index}
             style={{ margin: "5px" }}
-            alt=""
+            alt={image.title}
+            title={image.title}
           />
         ))}
 
         {isViewerOpen && (
           <ImageViewer
-            src={images}
+            src={images.map((image) => image.src)}
             currentIndex={currentImage}
             onClose={closeImageViewer}
             disableScroll={false}
             backgroundStyle={{
-              backgroundColor: "rgba(0,0,0,0.9)",
+              backgroundColor: "rgba(0,0,0,0.8)",
+              width: "100%",
+              height: "100%",
+              alignSelf: "center",
+              marginTop: "10vh",
             }}
             closeOnClickOutside={true}
-            style={{ marginTop: "50px" }}
-            className="margin-top-100"
           />
         )}
       </div>
