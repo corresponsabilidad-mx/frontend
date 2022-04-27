@@ -568,6 +568,14 @@ position: relative;
   background-color: #00b388 !important;
 }
 
+/*BLOG*/
+
+.input-blog{
+  margin-bottom: 0.8rem;
+  border-radius: 5px;
+  border: transparent;
+  filter: drop-shadow(0.10rem 0.10rem 0.2rem rgba(0, 0, 0, 0.5));
+}
 
 /* MEDIA QUERIES */
 @media screen and (min-width: 1441px) and (max-width: 2560px) {
