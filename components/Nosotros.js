@@ -8,7 +8,7 @@ export default function Nosotros  ()  {
 					<div className="mb-3">						
 						<div className="container p-3 col-sm-8">      
 							<Card className="">
-								<Card.Img variant="top" src="/images/carousel/carousel3.jpg" style={{borderRadius: "35px", minHeight: "250px"}} alt="Nosotros"/>
+								<Card.Img variant="top" src="/images/nosotros/nosotros.jpg" style={{borderRadius: "35px", minHeight: "250px"}} alt="Nosotros"/>
 								<Card.ImgOverlay className="card-overlay">									
 									<Card.Body className="row">
 										<div className="container text-center p-2">
