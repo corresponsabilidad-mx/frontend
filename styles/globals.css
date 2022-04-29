@@ -601,8 +601,8 @@ position: relative;
 @media (max-width: 1200px) {
   .card-drop{
     margin-top: 15px !important;
-    width: 250px !important;
-    height: 250px !important;
+    width: 240px !important;
+    height: 240px !important;
   }
 
   .card-home-title {
@@ -610,7 +610,7 @@ position: relative;
   }
 }
 
-@media (max-width: 1023px) {
+@media (max-width: 1024px) {
   .card-home-title {
     font-size: 1.2rem !important;
   }
