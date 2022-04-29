@@ -19,11 +19,11 @@ function ProyectosPob() {
               <p><BsCheckCircle /> Promoción de los derechos de niñas, niños y adolescentes.</p>
               <p><BsCheckCircle /> Trabajo y explotación infantil.</p>
               <p><BsCheckCircle /> Impartición de talleres y capacitación especializada en derechos de infancia, Agenda 2030, trabajo infantil y prevención de violencia.</p>
-              <p><BsCheckCircle /> Intervenciones basadas en la temporalidad de proyectos en fase previa, intermedia, final y posterior de la agenda de niñas, niños y primera infancia.</p>
+              <p id="adolescentes"><BsCheckCircle /> Intervenciones basadas en la temporalidad de proyectos en fase previa, intermedia, final y posterior de la agenda de niñas, niños y primera infancia.</p>
               </div>
           </div>
 
-          <div className="caja-pob" id="adolescentes">
+          <div className="caja-pob">
               <h3 className="title-pob"><BsFillDropletFill/> ADOLESCENTES</h3>
               <p><BsCheckCircle /> Identificación local, nacional e internacional de causas y efectos de la violencia en adolescentes.</p>
               <p><BsCheckCircle /> Valoración y actualización de protocolos de atención a la violencia en y contra adolescentes 
@@ -32,20 +32,20 @@ function ProyectosPob() {
               <p><BsCheckCircle /> Proyectos de desarrollo de competencias, bienestar emocional y empleabilidad de adolescentes en contexto de institucionalización o internamiento.</p>
               <p><BsCheckCircle /> Impartición de talleres y capacitación especializada en derechos de adolescentes, Agenda 2030, orientación vocacional, prevención de violencia, salud sexual y reproductiva.</p>
               <p><BsCheckCircle /> Prevención de violencia en el noviazgo y trata de personas.</p>
-              <p><BsCheckCircle /> Intervenciones basadas en la temporalidad de proyectos en fase previa, intermedia, final y posterior de la agenda de adolescentes.</p>
+              <p id="mujeres"><BsCheckCircle /> Intervenciones basadas en la temporalidad de proyectos en fase previa, intermedia, final y posterior de la agenda de adolescentes.</p>
           </div>
 
-          <div className="caja-pob" id="mujeres">
+          <div className="caja-pob">
               <h3 className="title-pob"><BsFillDropletFill/> MUJERES</h3>
               <p><BsCheckCircle /> Identificación local, nacional e internacional de factores e indicadores de violencia contra mujeres, mujeres adolescentes y niñas.</p>
               <p><BsCheckCircle /> Valoración y actualización de protocolos de atención a la violencia a mujeres, mujeres adolescentes y niñas.</p>
               <p><BsCheckCircle /> Orientación, incidencia, diseño y evaluación de políticas públicas de violencia contra las mujeres y género.</p>
               <p><BsCheckCircle /> Intervenciones en prevención de violencia, salud sexual y reproductiva, y bienestar emocional de las mujeres.</p>
               <p><BsCheckCircle /> Impartición de talleres y capacitación especializada en materia acoso, violencia, acceso a la justicia y derechos de las mujeres.</p>
-              <p><BsCheckCircle /> Intervenciones basadas en la temporalidad de proyectos en fase previa, intermedia, final y posterior de la agenda de mujeres y género.</p>
+              <p id="instituciones"><BsCheckCircle /> Intervenciones basadas en la temporalidad de proyectos en fase previa, intermedia, final y posterior de la agenda de mujeres y género.</p>
           </div>
 
-          <div className="caja-pob" id="instituciones">
+          <div className="caja-pob">
               <h3 className="title-pob"><BsFillDropletFill/> INSTITUCIONES</h3>
               <p><BsCheckCircle /> Diagnósticos georreferenciados en desigualdad y prevención de violencia contra niñas, niños, adolescentes, mujeres y población en contexto de institucionalización.</p>
               <p><BsCheckCircle /> Laboratorio de Políticas Públicas: Orientación, incidencia, diseño y evaluación.</p>
