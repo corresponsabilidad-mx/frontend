@@ -113,7 +113,7 @@ body {
 }
 
 .caja-cifra{
-  padding-top: 2em;
+  padding-top: 1.5em;
   display: flex;
   flex-wrap: wrap;
 }
@@ -642,7 +642,6 @@ position: relative;
   height: 420px;
    border-radius: 0 0 10px 10px;
   }
-
   .letra-form{
   font-size: 0.7em !important;
   margin-left: 0.4em;
@@ -664,7 +663,6 @@ position: relative;
     color:#00b388!important;
     background-color: transparent;
   }  
-
   .card-drop{
     margin-top: 15px !important;
     width: 200px !important;
@@ -744,6 +742,7 @@ position: relative;
   .caja-pob{
     margin-right: 4%;
     margin-left: 4%;
+    margin-top: 1.5em;
   }
   .titulo-cifra{
     font-size: 1.2em;
@@ -820,6 +819,8 @@ position: relative;
     height: 150px !important;
   }
 }
+
+
 
 
 

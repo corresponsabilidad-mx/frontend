@@ -73,7 +73,7 @@ const Form = () => {
                 className="input-form"
                 rows={4}
               ></textarea>
-              <div className="d-flex align-items-center ">
+              <div className="d-flex align-items-center">
                 <input
                   type="checkbox"
                   name="entry.681712784"
