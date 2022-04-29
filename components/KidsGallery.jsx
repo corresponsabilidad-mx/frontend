@@ -25,7 +25,8 @@ const PhotoSection = ({ images }) => {
             className="gallery-image"
             src={image.src}
             onClick={() => openImageViewer(index)}
-            height="200"
+            height={100}
+            width={150}
             key={index}
             style={{ margin: "5px" }}
             alt={image.title}
