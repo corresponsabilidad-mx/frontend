@@ -19,7 +19,7 @@ const Form = () => {
           <div className="contact align-items-start">
             <p className="letra-form">
               <BsTelephoneFill className="footer-icono me-1" />
-              <span>Teléfono</span>
+              <span>Teléfono: (52) 55 5084 0174</span>
             </p>
             <p className="letra-form">
               <BsFillEnvelopeFill className="footer-icono me-1" />
