@@ -85,7 +85,7 @@ const Form = () => {
                     href="https://drive.google.com/file/d/1ZhY_t2xqoqshxSGbSO2sWbtWVVnu1MbK/view?usp=sharing"
                     passHref
                   >
-                    <a>He leído y acepto las políticas de privacidad</a>
+                    <a>He leído y acepto la política de privacidad</a>
                   </Link>
                 </label>
               </div>

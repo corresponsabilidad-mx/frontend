@@ -41,10 +41,6 @@ export default function Galeria() {
         title: "Juanito Imágen 1",
       },
       {
-        src: "/images/fotosXpoblacion/Fotos por población/Niñas Niños/Niñasyniños10.jpg",
-        title: "Juanito Imágen 2",
-      },
-      {
         src: "/images/fotosXpoblacion/Fotos por población/Niñas Niños/Niñasyniños11.jpg",
         title: "Mi identidad",
       },
@@ -153,12 +149,7 @@ export default function Galeria() {
         title: "Secundaria técnica 97.",
       },
     ],
-    Instituciones: [
-      {
-        src: "/images/fotosXpoblacion/Fotos por población/Instituciones/Instituciones1.jpg",
-        title: "ABC Pacto Primera Infancia",
-      },
-    ],
+
     Instituciones: [
       {
         src: "/images/fotosXpoblacion/Fotos por población/Instituciones/Instituciones1.jpg",
@@ -295,77 +286,106 @@ export default function Galeria() {
 
   return (
     <div className="container">
-      <div
-        className="row mb-5 p-5"
-        style={{ backgroundColor: "lavender", borderRadius: "50px" }}
-      >
-        <h2
-          className="primary-color bg-transparent mb-2 text-start mt-3 p-2"
-          style={{ fontFamily: "Montserrat" }}
-        >
-          Niñas y Niños
-        </h2>
-        <div className="line-deco mb-2"></div>
-        <PhotoSection
-          images={images.Niñasyniños}
-          title={images.Niñasyniños.title}
-        />
-      </div>
-      <div
-        className="row mb-5 p-5"
-        style={{ backgroundColor: "lavender", borderRadius: "50px" }}
-      >
-        <h2
-          className="primary-color bg-transparent mb-2 text-start mt-3 p-2"
-          style={{ fontFamily: "Montserrat" }}
-        >
-          Adolescentes
-        </h2>
-        <div className="line-deco mb-2"></div>
-        <PhotoSection
-          images={images.Adolescentes}
-          title={images.Adolescentes.title}
-        />
-      </div>
-      <div
-        className="row mb-5 p-5"
-        style={{ backgroundColor: "lavender", borderRadius: "50px" }}
-      >
-        <h2
-          className="primary-color bg-transparent mb-2 text-start mt-3 p-2"
-          style={{ fontFamily: "Montserrat" }}
-        >
-          Mujeres
-        </h2>
-        <div className="line-deco mb-2"></div>
-        <PhotoSection images={images.Mujeres} title="title" />
-      </div>
-      <div
-        className="row mb-5 p-5"
-        style={{ backgroundColor: "lavender", borderRadius: "50px" }}
-      >
-        <h2
-          className="primary-color bg-transparent mb-2 text-start mt-3 p-2"
-          style={{ fontFamily: "Montserrat" }}
-        >
-          Instituciones
-        </h2>
-        <div className="line-deco mb-2"></div>
-        <PhotoSection images={images.Instituciones} title="title" />
-      </div>
-      <div
-        className="row mb-5 p-5"
-        style={{ backgroundColor: "lavender", borderRadius: "50px" }}
-      >
-        <h2
-          className="primary-color bg-transparent mb-2 text-start mt-3 p-2"
-          style={{ fontFamily: "Montserrat" }}
-        >
-          Equipo de Trabajo
-        </h2>
-        <div className="line-deco mb-2"></div>
-        <PhotoSection images={images.Equipo} title="title" />
-      </div>
+      <Accordion defaultActiveKey="0">
+        <Accordion.Item eventKey="0">
+          <Accordion.Header>
+            <h2
+              className="primary-color bg-transparent mb-2 text-start mt-3 p-2"
+              style={{ fontFamily: "Montserrat" }}
+            >
+              Niñas y Niños
+            </h2>
+          </Accordion.Header>
+          <div className="line-deco mb-3"></div>
+          <Accordion.Body className="row mb-5 p-5 accordion-bg">
+            <PhotoSection
+              images={images.Niñasyniños}
+              className="mb-5 bg-light p-5"
+              title="title"
+            />
+          </Accordion.Body>
+        </Accordion.Item>
+      </Accordion>
+      <Accordion>
+        <Accordion.Item eventKey="0">
+          <Accordion.Header>
+            <h2
+              className="primary-color bg-transparent mb-2 text-start mt-3 p-2"
+              style={{ fontFamily: "Montserrat" }}
+            >
+              Adolescentes
+            </h2>
+          </Accordion.Header>
+          <div className="line-deco mb-3"></div>
+          <Accordion.Body className="row mb-5 p-5 accordion-bg">
+            <PhotoSection
+              images={images.Adolescentes}
+              className="mb-5 bg-light p-5"
+              title="title"
+            />
+          </Accordion.Body>
+        </Accordion.Item>
+      </Accordion>
+      <Accordion>
+        <Accordion.Item eventKey="0">
+          <Accordion.Header>
+            <h2
+              className="primary-color bg-transparent mb-2 text-start mt-3 p-2"
+              style={{ fontFamily: "Montserrat" }}
+            >
+              Mujeres
+            </h2>
+          </Accordion.Header>
+          <div className="line-deco mb-3"></div>
+          <Accordion.Body className="row mb-5 p-5 accordion-bg">
+            <PhotoSection
+              images={images.Mujeres}
+              className="mb-5 bg-light p-5"
+              title="title"
+            />
+          </Accordion.Body>
+        </Accordion.Item>
+      </Accordion>
+      <Accordion>
+        <Accordion.Item eventKey="0">
+          <Accordion.Header>
+            <h2
+              className="primary-color bg-transparent mb-2 text-start mt-3 p-2"
+              style={{ fontFamily: "Montserrat" }}
+            >
+              Instituciones
+            </h2>
+          </Accordion.Header>
+          <div className="line-deco mb-3"></div>
+          <Accordion.Body className="row mb-5 p-5 accordion-bg">
+            <PhotoSection
+              images={images.Instituciones}
+              className="mb-5 bg-light p-5"
+              title="title"
+            />
+          </Accordion.Body>
+        </Accordion.Item>
+      </Accordion>
+      <Accordion>
+        <Accordion.Item eventKey="0">
+          <Accordion.Header>
+            <h2
+              className="primary-color bg-transparent mb-2 text-start mt-3 p-2"
+              style={{ fontFamily: "Montserrat" }}
+            >
+              Equipo
+            </h2>
+          </Accordion.Header>
+          <div className="line-deco mb-3"></div>
+          <Accordion.Body className="row mb-5 p-5 accordion-bg">
+            <PhotoSection
+              images={images.Equipo}
+              className="mb-5 bg-light p-5"
+              title="title"
+            />
+          </Accordion.Body>
+        </Accordion.Item>
+      </Accordion>
     </div>
   );
 }
