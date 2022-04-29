@@ -1,11 +1,19 @@
 export default function AddPost () {	
 
 	const addPost = async (payload) => {
-		await post("https://csm-org.herokuapp.com/blog/post", payload);
+		try{
+			await fetch("https://csm-org.herokuapp.com/blog/post", payload);			
+		} catch (error){
+			console.log(error);
+		}			
 	};
       
 	const onSubmit = async () => {
-		await addPost(data);			
+		try{
+			await addPost(data);
+		} catch (error){
+			console.log(error);
+		}					
 	};	
       
 	return (
