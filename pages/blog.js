@@ -1,11 +1,9 @@
-import BlogForm from '../components/BlogForm';
+import Novedades from '../components/Novedades';
 
 export default function Blog() {
 	return (
-	  <>
-		<h1>BLOG</h1> 
-		<BlogForm></BlogForm>
-	  </>    
-	  
+	  	<div className='container pt-5'> 
+		  <Novedades />
+	  	</div>	  
 	)
 }
