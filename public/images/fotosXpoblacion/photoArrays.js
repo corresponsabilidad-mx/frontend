@@ -118,6 +118,10 @@ const images = {
       src: "/images/fotosXpoblacion/Fotos por población/Mujeres/Mujeres5.jpg",
       title: "Día 25 mujeres",
     },
+    {
+      src: "/images/fotosXpoblacion/Fotos por población/Mujeres/Mujeres6.jpg",
+      title: "Capacitación",
+    },
   ],
   Adolescentes: [
     {
@@ -155,6 +159,26 @@ const images = {
     {
       src: "/images/fotosXpoblacion/Fotos por población/Adolescentes/adolescentes9.jpg",
       title: "Evento Veracruz",
+    },
+    {
+      src: "/images/fotosXpoblacion/Fotos por población/Adolescentes/adolescentes10.jpg",
+      title: "Secundaria técnica 97",
+    },
+    {
+      src: "/images/fotosXpoblacion/Fotos por población/Adolescentes/adolescentes11.jpg",
+      title: "Sec. tec. 213",
+    },
+    {
+      src: "/images/fotosXpoblacion/Fotos por población/Adolescentes/adolescentes12.jpg",
+      title: "Evento Nacional de prevención",
+    },
+    {
+      src: "/images/fotosXpoblacion/Fotos por población/Adolescentes/adolescentes13.jpg",
+      title: "CBTIS 107 TV4",
+    },
+    {
+      src: "/images/fotosXpoblacion/Fotos por población/Adolescentes/adolescentes14.jpg",
+      title: "CBTIS 107 TV2",
     },
   ],
   Instituciones: [
