@@ -41,6 +41,10 @@ export default function Galeria() {
         title: "Juanito Imágen 1",
       },
       {
+        src: "/images/fotosXpoblacion/Fotos por población/Niñas Niños/Niñasyniños10.jpg",
+        title: "Juanito Imágen 2",
+      },
+      {
         src: "/images/fotosXpoblacion/Fotos por población/Niñas Niños/Niñasyniños11.jpg",
         title: "Mi identidad",
       },
@@ -100,7 +104,7 @@ export default function Galeria() {
     Mujeres: [
       {
         src: "/images/fotosXpoblacion/Fotos por población/Mujeres/Mujeres1.jpg",
-        title: "Capacitación",
+        title: "CJM Hidalgo Mujeres",
       },
       {
         src: "/images/fotosXpoblacion/Fotos por población/Mujeres/Mujeres2.jpg",
@@ -114,19 +118,23 @@ export default function Galeria() {
         src: "/images/fotosXpoblacion/Fotos por población/Mujeres/Mujeres4.jpg",
         title: "Niñas Oaxaca",
       },
+      {
+        src: "/images/fotosXpoblacion/Fotos por población/Mujeres/Mujeres5.jpg",
+        title: "Día 25 mujeres",
+      },
     ],
     Adolescentes: [
       {
         src: "/images/fotosXpoblacion/Fotos por población/Adolescentes/adolescentes1.jpg",
-        title: "adolescentes1",
+        title: "Adolescentes",
       },
       {
         src: "/images/fotosXpoblacion/Fotos por población/Adolescentes/adolescentes2.jpg",
-        title: "CBTIS 107 TV2",
+        title: "Evento Veracruz",
       },
       {
         src: "/images/fotosXpoblacion/Fotos por población/Adolescentes/adolescentes3.jpg",
-        title: "CBTIS 107 TV4",
+        title: "Evento Veracruz",
       },
       {
         src: "/images/fotosXpoblacion/Fotos por población/Adolescentes/adolescentes4.jpg",
@@ -142,14 +150,17 @@ export default function Galeria() {
       },
       {
         src: "/images/fotosXpoblacion/Fotos por población/Adolescentes/adolescentes7.jpg",
-        title: "Sec. tec. 213",
+        title: "Evento Veracruz",
       },
       {
         src: "/images/fotosXpoblacion/Fotos por población/Adolescentes/adolescentes8.jpg",
-        title: "Secundaria técnica 97.",
+        title: "Embarazo adolescente",
+      },
+      {
+        src: "/images/fotosXpoblacion/Fotos por población/Adolescentes/adolescentes9.jpg",
+        title: "Evento Veracruz",
       },
     ],
-
     Instituciones: [
       {
         src: "/images/fotosXpoblacion/Fotos por población/Instituciones/Instituciones1.jpg",
@@ -176,7 +187,7 @@ export default function Galeria() {
         title: "CJM Mujeres",
       },
       {
-        src: "/images/fotosXpoblacion/Fotos por población/Instituciones/Instituciones7.jpg",
+        src: "/images/fotosXpoblacion/Fotos por población/Instituciones/adolescentes7.jpg",
         title: "COMPREVNNA",
       },
       {
@@ -204,7 +215,7 @@ export default function Galeria() {
         title: "INJUVE",
       },
       {
-        src: "/images/fotosXpoblacion/Fotos por población/Instituciones/Instituciones14.jpg",
+        src: "/images/fotosXpoblacion/Fotos por población/Instituciones/adolescentes14.jpg",
         title: "IQM Embarazo Adolescente",
       },
       {
