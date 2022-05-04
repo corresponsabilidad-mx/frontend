@@ -100,7 +100,7 @@ const images = {
   Mujeres: [
     {
       src: "/images/fotosXpoblacion/Fotos por población/Mujeres/Mujeres1.jpg",
-      title: "Capacitación",
+      title: "CJM Hidalgo Mujeres",
     },
     {
       src: "/images/fotosXpoblacion/Fotos por población/Mujeres/Mujeres2.jpg",
@@ -114,19 +114,23 @@ const images = {
       src: "/images/fotosXpoblacion/Fotos por población/Mujeres/Mujeres4.jpg",
       title: "Niñas Oaxaca",
     },
+    {
+      src: "/images/fotosXpoblacion/Fotos por población/Mujeres/Mujeres5.jpg",
+      title: "Día 25 mujeres",
+    },
   ],
   Adolescentes: [
     {
       src: "/images/fotosXpoblacion/Fotos por población/Adolescentes/adolescentes1.jpg",
-      title: "adolescentes1",
+      title: "Adolescentes",
     },
     {
       src: "/images/fotosXpoblacion/Fotos por población/Adolescentes/adolescentes2.jpg",
-      title: "CBTIS 107 TV2",
+      title: "Evento Veracruz",
     },
     {
       src: "/images/fotosXpoblacion/Fotos por población/Adolescentes/adolescentes3.jpg",
-      title: "CBTIS 107 TV4",
+      title: "Evento Veracruz",
     },
     {
       src: "/images/fotosXpoblacion/Fotos por población/Adolescentes/adolescentes4.jpg",
@@ -142,11 +146,15 @@ const images = {
     },
     {
       src: "/images/fotosXpoblacion/Fotos por población/Adolescentes/adolescentes7.jpg",
-      title: "Sec. tec. 213",
+      title: "Evento Veracruz",
     },
     {
       src: "/images/fotosXpoblacion/Fotos por población/Adolescentes/adolescentes8.jpg",
       title: "Secundaria técnica 97.",
+    },
+    {
+      src: "/images/fotosXpoblacion/Fotos por población/Adolescentes/adolescentes9.jpg",
+      title: "Evento Veracruz",
     },
   ],
   Instituciones: [

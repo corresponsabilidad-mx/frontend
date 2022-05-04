@@ -71,7 +71,7 @@ function Objetivos() {
           <Tab eventKey="evaluacion" title="Evaluación">
             <div className=" pt-3 tab-obj">
               <p>
-                Este es un eje transversal a todos los anteriores mediante el
+                Este es un eje transversal a todos los anteriores, mediante el
                 cual realizamos valoraciones bajo un enfoque de derechos,
                 equidad y perspectiva de género de todos nuestros proyectos,
                 proyectos institucionales y acciones de intervención.
