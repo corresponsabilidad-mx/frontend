@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { BsPencilSquare } from "react-icons/bs";
 import { BsFacebook } from "react-icons/bs";
 import { BsInstagram } from "react-icons/bs";
@@ -17,7 +18,10 @@ const Video = () => {
           </span>
           <div className="div-btn-video">
               <h4 className="video-h4">Eventos y novedades</h4>
-              <button className="boton-video"><a className="video-text" href="/blog" rel="noreferrer"><BsPencilSquare/> Blog</a></button>
+              <button className="boton-video">
+                  <Link href="/blog" rel="noreferrer">
+                      <a className="video-text"><BsPencilSquare/> Blog</a>
+                    </Link></button>
               <button className="boton-video"><a className="video-text" href="https://www.facebook.com/csm.org.mx" rel="noreferrer" target="_blank"><BsFacebook/> Facebook</a></button>
               <button className="boton-video"><a className="video-text" href="https://www.instagram.com/corresponsabilidadsocialmx" rel="noreferrer" target="_blank"><BsInstagram/> Instagram</a></button>
               <br />
