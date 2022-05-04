@@ -7,7 +7,7 @@ export default function Nosotros  ()  {
 				<div className="">
 					<div className="mb-3">						
 						<div className="container p-3 col-sm-8">      
-							<Card className="">
+							<Card className="mt-3">
 								<Card.Img variant="top" src="/images/nosotros/nosotros.jpg" style={{borderRadius: "35px", minHeight: "250px"}} alt="Nosotros"/>
 								<Card.ImgOverlay className="card-overlay">									
 									<Card.Body className="row">
