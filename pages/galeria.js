@@ -296,7 +296,7 @@ export default function Galeria() {
   };
 
   return (
-    <div className="container">
+    <div className="container pt-4 pb-3">
       <Accordion defaultActiveKey="0">
         <Accordion.Item eventKey="0">
           <Accordion.Header>
