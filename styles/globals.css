@@ -752,7 +752,7 @@ position: relative;
   }
   .linkedin-center{
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
   } 
   .cajaPrincipal-objetivos {
     padding: 0px 4% 5% 4%;
@@ -857,3 +857,26 @@ position: relative;
     align-self: center;
   }
 }
+
+@media screen and (min-width: 377px) and (max-width: 767px) {
+  .linkedin-center{
+    display: flex;
+    justify-content: center;
+    width: 33% !important;
+  } 
+  .text-prog {
+    font-size: 11px !important;
+  }
+}
+
+@media(max-width: 376px){ 
+  .linkedin-center{
+    display: flex;
+    justify-content: flex-start;
+  }
+  .text-prog {
+    font-size: 11px !important;
+  }
+}
+
+
