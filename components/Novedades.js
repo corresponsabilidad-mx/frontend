@@ -46,11 +46,11 @@ export default function Novedades ()  {
         <div className="container" style={{fontFamily: "Montserrat"}}>
             <h2 className="text-center text-title primary-color bg-transparent" style={{fontFamily: "Montserrat"}}>Novedades y Eventos</h2>
             <div className="line-deco"></div>
-            <div className="row p-5">
+            <div className="row columnas-nov">
                 {postsFiltrado.map((post, index) => (
-                    <div key={index} className="col-12 col-lg-4">
-                        <div className="card m-3 div-carta" style={{backgroundColor: "lavender", borderRadius: "25px"}}>
-                            <div className="">{<img src={post.thumbnail} className="card-img-top navbar-style mt-2 responsive" alt="card-image" width={150} height={200} style={{borderRadius: "25px 0"}}/>}                          
+                    <div key={index} className="col-12 col-lg-4 card-nov-ind">
+                        <div className="card div-nov h-100" style={{backgroundColor: "lavender", borderRadius: "25px"}}>
+                            <div className="img-nov">{<img src={post.thumbnail} className="card-img-top navbar-style mt-2 responsive" alt="card-image" width={150} height={200} style={{borderRadius: "25px 0"}}/>}                          
                             </div>
                             <div className="card-body"  style={{fontFamily: "Montserrat"}}>
                                 <h5 className="primary-color bg-transparent">{post.title}</h5>
