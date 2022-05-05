@@ -17,7 +17,7 @@ const Video = () => {
               <iframe className="embed-responsive-item" src="https://www.youtube.com/embed/XtuotJR9GZw" allowFullScreen></iframe>
           </span>
           <div className="div-btn-video">
-              <h4 className="video-h4">Eventos y novedades</h4>
+              <h4 className="video-h4">Novedades y eventos</h4>
               <button className="boton-video">
                   <Link href="/blog" rel="noreferrer">
                       <a className="video-text"><BsPencilSquare/> Blog</a>

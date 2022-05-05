@@ -489,7 +489,7 @@ position: relative;
 
 .title-proyectos{
   padding-top: 4%;
-  color: #592e8f;
+  color: #753bbd;
   text-align: center !important;
   font-size: 2em;
 }
@@ -576,6 +576,8 @@ position: relative;
   border: transparent;
   filter: drop-shadow(0.10rem 0.10rem 0.2rem rgba(0, 0, 0, 0.5));
 }
+
+
 
 /* MEDIA QUERIES */
 @media screen and (min-width: 1441px) and (max-width: 2560px) {
