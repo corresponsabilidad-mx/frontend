@@ -103,7 +103,7 @@ export default function Galeria() {
     ],
     Mujeres: [
       {
-        src: "/images/fotosXpoblacion/Fotos por población/Mujeres/Mujeres1.jpg",
+        src: "/images/fotosXpoblacion/Fotos por población/Mujeres/Mujeres1.JPG",
         title: "CJM Hidalgo Mujeres",
       },
       {
@@ -133,11 +133,11 @@ export default function Galeria() {
         title: "Adolescentes",
       },
       {
-        src: "/images/fotosXpoblacion/Fotos por población/Adolescentes/adolescentes2.jpg",
+        src: "/images/fotosXpoblacion/Fotos por población/Adolescentes/adolescentes2.JPG",
         title: "Evento Veracruz",
       },
       {
-        src: "/images/fotosXpoblacion/Fotos por población/Adolescentes/adolescentes3.jpg",
+        src: "/images/fotosXpoblacion/Fotos por población/Adolescentes/adolescentes3.JPG",
         title: "Evento Veracruz",
       },
       {
@@ -153,11 +153,11 @@ export default function Galeria() {
         title: "Evento Prevención Veracruz",
       },
       {
-        src: "/images/fotosXpoblacion/Fotos por población/Adolescentes/adolescentes7.jpg",
+        src: "/images/fotosXpoblacion/Fotos por población/Adolescentes/adolescentes7.JPG",
         title: "Evento Veracruz",
       },
       {
-        src: "/images/fotosXpoblacion/Fotos por población/Adolescentes/adolescentes8.jpg",
+        src: "/images/fotosXpoblacion/Fotos por población/Adolescentes/adolescentes8.JPG",
         title: "Secundaria técnica 97.",
       },
       {
