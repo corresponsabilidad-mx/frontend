@@ -41,10 +41,6 @@ export default function Galeria() {
         title: "Juanito Imágen 1",
       },
       {
-        src: "/images/fotosXpoblacion/Fotos por población/Niñas Niños/Niñasyniños10.jpg",
-        title: "Juanito Imágen 2",
-      },
-      {
         src: "/images/fotosXpoblacion/Fotos por población/Niñas Niños/Niñasyniños11.jpg",
         title: "Mi identidad",
       },
@@ -123,7 +119,7 @@ export default function Galeria() {
         title: "Día 25 mujeres",
       },
       {
-        src: "/images/fotosXpoblacion/Fotos por población/Mujeres/Mujeres6.jpg",
+        src: "/images/fotosXpoblacion/Fotos por población/Mujeres/mujeres6.jpg",
         title: "Capacitación",
       },
     ],
@@ -211,7 +207,7 @@ export default function Galeria() {
         title: "CJM Mujeres",
       },
       {
-        src: "/images/fotosXpoblacion/Fotos por población/Instituciones/adolescentes7.jpg",
+        src: "/images/fotosXpoblacion/Fotos por población/Instituciones/Instituciones7.jpg",
         title: "COMPREVNNA",
       },
       {
@@ -239,7 +235,7 @@ export default function Galeria() {
         title: "INJUVE",
       },
       {
-        src: "/images/fotosXpoblacion/Fotos por población/Instituciones/adolescentes14.jpg",
+        src: "/images/fotosXpoblacion/Fotos por población/Instituciones/Instituciones14.jpg",
         title: "IQM Embarazo Adolescente",
       },
       {
