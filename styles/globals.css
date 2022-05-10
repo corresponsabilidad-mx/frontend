@@ -313,6 +313,12 @@ body {
   font-size: 12px !important;
 }
 
+.frase-footer{
+  color: white;
+  text-align: center;
+  font-size: 11px;
+}
+
 .fb,
 .ins,
 .yout{
@@ -432,14 +438,6 @@ position: relative;
   right: 50% ;  
 }
 
-/* .accordion-bg{
-  background-color: lavender;
-  padding:  0 10px 0 10px !important;
-} */
-
-/* .photo-container{
-  padding: 0 10px 0 10px;
-} */
 
 /* PAGE PROYECTO */
 
