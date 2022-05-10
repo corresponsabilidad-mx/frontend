@@ -44,6 +44,7 @@ const Footer= () => {
         </div>
         <div className='programadoras'>
             <div className="container">
+                <div className="frase-footer">Esta web ha sido elaborada por EgresAdas de Ada ITW en el marco de las Prácticas Profesionales con Impacto:</div>
                 <div className="row">
                     <div className="md-contacto col-12 col-md-4 linkedin-center">
                         <p className="p-linkedin"><BsLinkedin className="prog-icon" /><Link href="https://www.linkedin.com/in/mariana-deleau"><a className= "text-white text-prog" target="_blank">Mariana Deleau</a></Link></p>
