@@ -25,7 +25,7 @@ const Footer= () => {
                         ></Image>
                         <p className="letra-footer"><BsGeoAltFill className="footer-icono"/><Link href="https://www.google.com/maps/place/Costa+98,+Ampliacion+Los+Alpes,+%C3%81lvaro+Obreg%C3%B3n,+01710+Ciudad+de+M%C3%A9xico,+CDMX,+M%C3%A9xico/@19.3573815,-99.2113039,17z/data=!3m1!4b1!4m5!3m4!1s0x85d20015a02cb75f:0x1cfb8a66e56d176a!8m2!3d19.3573815!4d-99.2091152"><a className="text-white" target="_blank"> Costa 98 Colonia Ampliación los Alpes - <br /> Alcaldia Álvaro Obregón-CP 01710- México</a></Link></p>
                         <p className="letra-footer"><BsTelephoneFill className="footer-icono"/><span> (52) 55 5084 0174</span></p>
-                        <p className="letra-footer"><BsFillEnvelopeFill className="footer-icono"/><span> contacto@corresponsabilidadsocial.org.mx</span></p>
+                        <p className="letra-footer"><BsFillEnvelopeFill className="footer-icono"/><span> contacto@corresponsabilidadsocialmx.org</span></p>
                     </div>
                     <div className="md-contacto col-6 col-sm-4 divFooter">
                         <h5 className="letra-footer">Redes Sociales</h5>        
