@@ -1,8 +1,9 @@
+import Novedades from '../components/Novedades';
+
 export default function Blog() {
 	return (
-	  <>
-		<h1>BLOG</h1> 
-	  </>    
-	  
+	  	<div className='container pt-5'> 
+		  <Novedades />
+	  	</div>	  
 	)
 }

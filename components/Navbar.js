@@ -6,17 +6,16 @@ export default function NavBar() {
     <Navbar
       collapseOnSelect
       id="top"
-      className="fixed-top"
+      className="fixed-top navbar-style"
       expand="lg"
-      bg="light"
-      variant="light"
+      style={{ backgroundColor: "#f5f5f5" }}
     >
       <div className="container">
-        <Navbar.Brand className="col-md-8 col-lg-4" href="/">
+        <Navbar.Brand className="col-lg-3" href="/">
           <Image
-            src="/images/logo/logo.jpg"
+            src="/images/logo/logo_PNG.png"
             alt="logo"
-            style={{ width: "7.5rem" }}
+            style={{ width: "5rem" }}
           />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
@@ -24,44 +23,32 @@ export default function NavBar() {
           <Nav className="mr-auto navbar-nav flex-fill justify-content-between align-items-center">
             <Nav.Item>
               <Link href="/">
-                <a className="nav-link active text-white primary-color a-navbar">
-                  INICIO
-                </a>
+                <a className="nav-link a-navbar">INICIO</a>
               </Link>
             </Nav.Item>
             <Nav.Item>
               <Link href="/conocenos">
-                <a className="nav-link text-white primary-color a-navbar">
-                  CONOCENOS
-                </a>
+                <a className="nav-link a-navbar">CONÓCENOS</a>
               </Link>
             </Nav.Item>
             <Nav.Item>
               <Link href="/proyectos">
-                <a className="nav-link text-white primary-color a-navbar">
-                  PROYECTOS
-                </a>
+                <a className="nav-link a-navbar">PROYECTOS</a>
               </Link>
             </Nav.Item>
             <Nav.Item>
               <Link href="/galeria">
-                <a className="nav-link text-white primary-color a-navbar">
-                  GALERIA
-                </a>
+                <a className="nav-link a-navbar">GALERIA</a>
               </Link>
             </Nav.Item>
             <Nav.Item>
               <Link href="/blog">
-                <a className="nav-link text-white primary-color a-navbar">
-                  BLOG
-                </a>
+                <a className="nav-link a-navbar">BLOG</a>
               </Link>
             </Nav.Item>
             <Nav.Item>
               <Link href="/participa">
-                <a className="nav-link text-white primary-color a-navbar">
-                  PARTICIPA
-                </a>
+                <a className="nav-link a-navbar">PARTICIPA</a>
               </Link>
             </Nav.Item>
           </Nav>

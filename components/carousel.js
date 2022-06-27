@@ -4,12 +4,13 @@ import Link from "next/link";
 
 const PhotoCarousel = () => {
   const images = [
-    "/images/carousel/carousel2.jpg",
-    "/images/carousel/carousel4.jpg",
-    "/images/carousel/carousel6.jpg",
-    "/images/carousel/carousel9.jpg",
-    "/images/carousel/carousel8.jpg",
-    "/images/carousel/carousel10.jpg",
+    "/images/carrete/carrete1.jpg",
+    "/images/carrete/carrete2.jpg",
+    "/images/carrete/carrete3.jpg",
+    "/images/carrete/carrete4.jpg",
+    "/images/carrete/carrete5.jpg",
+    "/images/carrete/carrete6.jpg",
+    //AQUI SE PUEDEN AGREGAR O CAMBIAR LAS RUTAS DE NUEVAS FOTOS DE LA GALERIA DE NINAS Y NINOS
   ];
 
   return (
@@ -26,13 +27,21 @@ const PhotoCarousel = () => {
             layout="responsive"
           />
           <Carousel.Caption>
-            <h2>Quiénes somos</h2>
-            <h5>Trabajamos por la prevención e igualdad de derechos</h5>
-            <Button className="mt-3 mb-3 fs-6 btn-light btn-lg btn-carousel">
-              <Link href="/conocenos">
-                <a className="text-decoration-none text-dark ">CONOCENOS</a>
-              </Link>
-            </Button>
+            <div className="carousel-overlay">
+              <h2 className="carousel-title">¿Quiénes somos?</h2>
+              <h5 className="carousel-text">
+                Correponsabilidad Social Mexicana, un camino a la prevención y
+                la igualdad
+              </h5>
+
+              <Button className="mt-md-3 mb-3 fs-6 bg-light btn-sm btn-carousel">
+                <Link href="/conocenos">
+                  <a className="text-decoration-none btn-carousel ">
+                    CONÓCENOS
+                  </a>
+                </Link>
+              </Button>
+            </div>
           </Carousel.Caption>
         </Carousel.Item>
       ))}

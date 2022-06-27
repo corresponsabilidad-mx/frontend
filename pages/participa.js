@@ -1,7 +1,9 @@
+import Form from "../components/Formulario";
+
 export default function Participa() {
-	return (
-	  <>
-		<h1>PARTICIPA</h1> 
-	  </> 	  
-	)
+  return (
+    <>
+      <Form />
+    </>
+  );
 }

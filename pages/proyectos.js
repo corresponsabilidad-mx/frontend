@@ -1,7 +1,13 @@
+import Objetivos from "../components/Objetivos";
+import ProyectosEspeciales from "../components/ProyectosEspeciales";
+import ProyectosPob from "../components/ProyectosPob";
+
 export default function Proyectos() {
 	return (
 	  <>
-	     <h1>PROYECTOS</h1>        
+	  	<ProyectosPob />
+	    <Objetivos />      
+		<ProyectosEspeciales />
 	  </>
 	)
 }
